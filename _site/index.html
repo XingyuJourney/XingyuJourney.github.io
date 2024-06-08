@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Xingyu ZHU Blog</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: url('/assets/avatar/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+      padding:20px;
+      width: 450px; /* 你可以根据需要调整宽度 */
+      height: 100%; /* 覆盖整个页面高度 */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .bottom-nav {
+      display: flex;
+      justify-content: center; /* 居中对齐 */
+      align-items: center; /* 垂直居中 */
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: none; /* 不需要半透明背景 */
+    }
+    .bottom-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    .bottom-nav ul li {
+      margin: 0 20px; /* 增加间距 */
+    }
+    .bottom-nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em; /* 增大字体 */
+    }
+    h1 {
+      margin: 0 0 20px 0; /* 确保标题与内容之间有间距 */
+    }
+    h2 {
+      margin: 20px 0 0 0; /* 确保第二个标题有上边距 */
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <br> 
+      <h1>The Journey of Xingyu ZHU</h1>
+    </header>
+    <main class="content">
+      <h2>Recent Posts</h2>
+      <ul>
+        
+        <li><a href="/blog/2024/01/09/HighlandTime1.html">First time to Highland</a></li>
+        
+      </ul>
+    </main>
+  </div>
+  <nav class="bottom-nav">
+    <ul>
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/gallery/">Gallery</a></li>
+      
+    </ul>
+  </nav>
+</body>
+</html>
