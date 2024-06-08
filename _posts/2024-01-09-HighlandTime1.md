@@ -5,7 +5,7 @@ date: 2024-01-09
 categories: blog
 tags: [UK]
 ---
-# My first time to Scottish Highlands
+# First time to Scottish Highlands
 
 ## Street of Inverness
 ### The northernmost city in the UK
