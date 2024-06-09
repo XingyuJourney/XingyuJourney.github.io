@@ -27,7 +27,8 @@
       position: fixed;
       top: 0;
       z-index: 1;
-      animation: slideInDown 1s ease-in-out;
+      opacity: 0;
+      animation: slideInFromTop 1s ease-in-out forwards;
     }
     header h1 {
       margin: 0;
@@ -85,8 +86,8 @@
     }
     .slider img {
       width: auto; /* Adjust to maintain aspect ratio */
-      height: 100%; /* Ensure the image fills the height of the container */
-      max-width: 100%; /* Ensure image does not exceed container width */
+      height: 90%; /* Adjust height to slightly shrink the image */
+      max-width: 90%; /* Ensure image does not exceed container width */
       object-fit: contain; /* Ensure the image fits within the container while maintaining aspect ratio */
       border-radius: 10px;
     }
@@ -121,9 +122,9 @@
       background: rgba(0, 0, 0, 0.8);
       padding: 10px 0;
       text-align: center;
-      opacity: 0; /* 初始状态透明 */
-      animation: fadeInUp 1s ease-in-out forwards; /* 渐入动画 */
-      animation-delay: 2s; /* 延迟 */
+      opacity: 0;
+      animation: fadeInUp 1s ease-in-out forwards;
+      animation-delay: 2s;
     }
     .bottom-nav ul {
       list-style: none;
@@ -140,7 +141,7 @@
       color: white;
       font-size: 1.5em;
     }
-    @keyframes slideInDown {
+    @keyframes slideInFromTop {
       from {
         transform: translateY(-50px);
         opacity: 0;
