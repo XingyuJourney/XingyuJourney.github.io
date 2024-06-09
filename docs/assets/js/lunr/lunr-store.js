@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Scottish Highlands Part 3 (Ben Nevis)",
-        "excerpt":"Ben Nevis Conclusion: In harsh weather, it is unwise to climb the snowy mountain alone. If your equipment is inadequate and time is short, it is best to avoid the journey altogether. Stage zero At first I didn’t realize the seriousness of the situation. Stage one As I started to...","categories": ["blog"],
+        "excerpt":"Ben Nevis Conclusion: In harsh weather, it is unwise to climb the snowy mountain alone. If your equipment is inadequate and time is short, it is best to avoid the journey altogether. Stage zero At first I didn’t realize the seriousness of this situation. Stage one As I started to...","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/03/27/HighlandTime3.html",
         "teaser": null
