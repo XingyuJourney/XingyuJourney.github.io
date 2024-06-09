@@ -28,6 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Whether you seek inspiration for your next escapade or simply crave a visual escape, let my site be your passport to wanderlust and wonder.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xingyujourney.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#上面的url后面不应该加/，因为navigation的前面加了/
 twitter_username: jekyllrb
 github_username:  jekyll
 
