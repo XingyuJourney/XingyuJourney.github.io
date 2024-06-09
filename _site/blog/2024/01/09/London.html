@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>London</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: url('/assets/avatar/backForBase.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      opacity: 0;
+      animation: slideInFromTop 1s ease-in-out forwards;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.2em;
+      white-space: nowrap;
+    }
+    .content {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      width: 80%;
+      max-width: 800px;
+      height: 80vh;
+      margin: 10vh auto;
+      border-radius: 10px;
+      overflow-y: auto;
+      opacity: 0;
+      animation: fadeInUp 1s ease-in-out forwards;
+      animation-delay: 1s;
+    }
+    .content img {
+      width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+    @keyframes slideInFromTop {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    @keyframes slideInFromBottom {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px 0;
+      text-align: center;
+      opacity: 0;
+      animation: slideInFromBottom 1s ease-in-out forwards;
+      animation-delay: 2s;
+    }
+    .bottom-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .bottom-nav ul li {
+      margin: 0 20px;
+    }
+    .bottom-nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Journey of Xingyu ZHU</h1>
+  </header>
+  <div class="content">
+    <h1 id="london">London</h1>
+
+<h2 id="big-ben">Big Ben</h2>
+<h3 id="a-landmark-building-in-london">A landmark building in London</h3>
+<p><img src="/assets/images/BigBen.jpg" alt="BigBen" style="width: 100%; max-width: 100%; height: auto;" /></p>
+
+<h2 id="the-national-gallery-of-uk">The National Gallery of UK</h2>
+<h3 id="i-browsed-the-original-works-of-van-gogh-herewho-is-one-of-my-favourite-artists-van-goghs-tragic-life-is-reflected-in-the-emotional-depth-of-his-work-also-he-had-a-profound-understanding-of-color-usage">I browsed the original works of Van Gogh here，who is one of my favourite artists. Van Gogh’s tragic life is reflected in the emotional depth of his work, also he had a profound understanding of color usage.</h3>
+
+<p><img src="/assets/images/VanGoghPainting1.jpg" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<br />
+<img src="/assets/images/VanGoghPainting2.jpg" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<br />
+<img src="/assets/images/VanGoghPainting3.jpg" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<br />
+<img src="/assets/images/VanGoghPainting4.jpg" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<br />
+<img src="/assets/images/VanGoghPainting5.jpg" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" /></p>
+
+  </div>
+  <nav class="bottom-nav">
+    <ul>
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/blogs">Blogs</a></li>
+      
+      <li><a href="/about">About</a></li>
+      
+      <li><a href="/gallery">Gallery</a></li>
+      
+    </ul>
+  </nav>
+</body>
+</html>
