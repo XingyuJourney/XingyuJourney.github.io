@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "First time to Highland"
+title: "Scottish Highlands Part 1"
 date: 2024-01-09
 categories: blog
 tags: [UK]

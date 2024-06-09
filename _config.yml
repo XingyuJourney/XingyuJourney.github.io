@@ -55,17 +55,6 @@ author:
     - label: "GitHub"
       url: "https://xingyujourney.github.io/"
 
-# Navigation settings
-navigation:
-  main:
-    - title: "Home"
-      url: /
-    - title: "About"
-      url: /about/
-    - title: "Gallery"
-      url: /gallery/
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
