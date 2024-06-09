@@ -1,8 +1,11 @@
 ---
-layout: about
+layout: gallery
 title: "Gallery"
 ---
 
-# Gallery
 
-## Welcome to the gallery.
+{% for image in site.data.gallery.images %}
+  <div class="slide">
+    <img src="{{ image.url }}" alt="{{ image.alt }}">
+  </div>
+{% endfor %}

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <style>
     body {
       margin: 0;
@@ -164,7 +164,7 @@
 </head>
 <body>
   <header>
-    <h1>The Journey of Xingyu ZHU</h1>
+    <h1>{{ site.title }}</h1>
   </header>
   <div class="content-wrapper">
     <div class="slider-container">
@@ -173,65 +173,15 @@
         <button class="arrow arrow-right" onclick="moveSlide(1)">&#10095;</button>
       </div>
       <div class="slider">
-        
-<div class="slide">
-    <img src="/assets/images/LochNessView2.jpg" alt="Loch Ness View" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/LochNessInFog.jpg" alt="Loch Ness in fog" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/Drumnadrochit.jpg" alt="Drumnadrochit" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/BigBen.jpg" alt="Big Ben" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/BennerleyViaduct2.jpg" alt="Bennerley Viaduct" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/SunSetRiverTrent1.jpg" alt="River Trent" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/EdensorChurch.jpg" alt="Edensor Church" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/ViewNearEdensor1.jpg" alt="View near Edensor" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/EdensorTree.jpg" alt="A tree in Edensor" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/DuringClimbWinHill1.jpg" alt="During Climb Win Hill" />
-  </div>
-
-<div class="slide">
-    <img src="/assets/images/WillHillTop1.jpg" alt="Win Hill Top" />
-  </div>
-
+        {{ content }}
       </div>
     </div>
   </div>
   <nav class="bottom-nav">
     <ul>
-      
-        <li><a href="/">Home</a></li>
-      
-        <li><a href="/blogs">Blogs</a></li>
-      
-        <li><a href="/about">About</a></li>
-      
-        <li><a href="/gallery">Gallery</a></li>
-      
+      {% for item in site.data.navigation.main %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
     </ul>
   </nav>
   <script>
