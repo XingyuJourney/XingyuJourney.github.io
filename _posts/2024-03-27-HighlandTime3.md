@@ -11,7 +11,7 @@ tags: [UK]
 ## Conclusion: In harsh weather, it is unwise to climb the snowy mountain alone. If your equipment is inadequate and time is short, it is best to avoid the journey altogether.
 
 ## Stage zero
-### At first I didn't realize the seriousness of the situation.
+### At first I didn't realize the seriousness of this situation.
 <img src="/assets/images/BenNevisFoot.jpg" alt="BenNevisFoot" style="width: 100%; max-width: 100%; height: auto;">
 
 ## Stage one
