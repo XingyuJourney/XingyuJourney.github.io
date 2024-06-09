@@ -2,8 +2,8 @@ main:
   - title: "Home"
     url: /
   - title: "Blogs"
-    url: /blogs/
+    url: /blogs
   - title: "About"
-    url: /about/
+    url: /about
   - title: "Gallery"
-    url: /gallery/
+    url: /gallery

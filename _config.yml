@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   From the serene shores of secluded beaches to the bustling streets of bustling cities, each photograph tells a story, inviting you to wanderlust alongside me. 
   Whether you seek inspiration for your next escapade or simply crave a visual escape, let my site be your passport to wanderlust and wonder.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xingyujourney.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xingyujourney.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
