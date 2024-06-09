@@ -8,7 +8,7 @@ tags: [UK]
 # Scottish Highlands
 
 ## Loch Linnhe
-### A loch located on the west coast of Scotland.Loch Linna is part of the Grand Canyon and the only lake in the Grand Canyon that is actually part of the ocean.
+### A loch located on the west coast of Scotland. Loch Linna is part of the Grand Canyon and the only lake in the Grand Canyon that is actually part of the ocean.
 
 ### It is rumored that an unknown marine creature called "Linnhe" lives here. (Why does it feel similar to the legend of the Loch Ness Monster)
 <img src="/assets/images/LochLinnhe.jpg" alt="LochLinnhe" style="width: 100%; max-width: 100%; height: auto;">
