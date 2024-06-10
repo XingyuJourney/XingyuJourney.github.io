@@ -32,7 +32,7 @@ tags: [UK]
 ### A place close to the Balmacaan Deer Forest. It is a pity that I cannot enter the forest due to seasonal reasons.
 <img src="/assets/images/HighLandView1.jpg" loading="lazy" alt="HighLandView1" style="width: 100%; max-width: 100%; height: auto;">
 <br>
-<img src="/assets/images/HighLandView2.jpg" loading="lazy"alt="HighLandView2" style="width: 100%; max-width: 100%; height: auto;">
+<img src="/assets/images/HighLandView2.jpg" loading="lazy" alt="HighLandView2" style="width: 100%; max-width: 100%; height: auto;">
 <br>
 <img src="/assets/images/HighLandView3.jpg" loading="lazy" alt="HighLandView3" style="width: 100%; max-width: 100%; height: auto;">
 
