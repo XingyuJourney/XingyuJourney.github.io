@@ -125,6 +125,35 @@
       color: white;
       font-size: 1.5em;
     }
+
+    /* 弹出框样式 */
+    #image-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #image-popup img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    #image-popup .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
   </style>
 </head>
 <body>
@@ -136,20 +165,32 @@
 
 <h2 id="big-ben">Big Ben</h2>
 <h3 id="a-landmark-building-in-london">A landmark building in London</h3>
-<p><img src="/assets/images/BigBen.jpg" loading="lazy" alt="BigBen" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BigBen.jpg', 'Big Ben')">
+    <img src="/assets/images/thumbnails/BigBen_thumbnail.jpg" alt="BigBen" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="the-national-gallery-of-uk">The National Gallery of UK</h2>
 <h3 id="i-browsed-the-original-works-of-van-gogh-herewho-is-one-of-my-favourite-artists-van-goghs-tragic-life-is-reflected-in-the-emotional-depth-of-his-work-also-he-had-a-profound-understanding-of-color-usage">I browsed the original works of Van Gogh here，who is one of my favourite artists. Van Gogh’s tragic life is reflected in the emotional depth of his work, also he had a profound understanding of color usage.</h3>
 
-<p><img src="/assets/images/VanGoghPainting1.jpg" loading="lazy" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/VanGoghPainting1.jpg', 'Van Gogh Painting 1')">
+    <img src="/assets/images/thumbnails/VanGoghPainting1_thumbnail.jpg" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/VanGoghPainting2.jpg" loading="lazy" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/VanGoghPainting2.jpg', 'Van Gogh Painting 2')">
+    <img src="/assets/images/thumbnails/VanGoghPainting2_thumbnail.jpg" alt="VanGoghPainting2" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/VanGoghPainting3.jpg" loading="lazy" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/VanGoghPainting3.jpg', 'Van Gogh Painting 3')">
+    <img src="/assets/images/thumbnails/VanGoghPainting3_thumbnail.jpg" alt="VanGoghPainting3" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/VanGoghPainting4.jpg" loading="lazy" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/VanGoghPainting4.jpg', 'Van Gogh Painting 4')">
+    <img src="/assets/images/thumbnails/VanGoghPainting4_thumbnail.jpg" alt="VanGoghPainting4" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/VanGoghPainting5.jpg" loading="lazy" alt="VanGoghPainting1" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/VanGoghPainting5.jpg', 'Van Gogh Painting 5')">
+    <img src="/assets/images/thumbnails/VanGoghPainting5_thumbnail.jpg" alt="VanGoghPainting5" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
   </div>
   <nav class="bottom-nav">
@@ -165,5 +206,28 @@
       
     </ul>
   </nav>
+
+  <!-- 弹出框HTML -->
+  <div id="image-popup">
+    <span class="close-btn" onclick="closeImagePopup()">&#10006;</span>
+    <img id="popup-image" src="" alt="">
+  </div>
+
+  <script>
+  function showImage(src, alt) {
+      var popup = document.getElementById('image-popup');
+      var popupImage = document.getElementById('popup-image');
+
+      popupImage.src = src;
+      popupImage.alt = alt;
+      popup.style.display = 'flex';
+  }
+
+  function closeImagePopup() {
+      var popup = document.getElementById('image-popup');
+      popup.style.display = 'none';
+  }
+  </script>
+
 </body>
 </html>

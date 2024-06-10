@@ -125,6 +125,35 @@
       color: white;
       font-size: 1.5em;
     }
+
+    /* 弹出框样式 */
+    #image-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #image-popup img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    #image-popup .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
   </style>
 </head>
 <body>
@@ -134,19 +163,45 @@
   <div class="content">
     <h1 id="chatsworth-house">Chatsworth House</h1>
 <h2 id="a-grand-stately-home">A grand stately home</h2>
-<p><img src="/assets/images/ChatsworthHouse1.jpg" loading="lazy" alt="ChatsworthHouse1" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse1.jpg', 'Chatsworth House 1')">
+    <img src="/assets/images/thumbnails/ChatsworthHouse1_thumbnail.jpg" alt="ChatsworthHouse1" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/ChatsworthHouse2.jpg" loading="lazy" alt="ChatsworthHouse2" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse2.jpg', 'Chatsworth House 2')">
+    <img src="/assets/images/thumbnails/ChatsworthHouse2_thumbnail.jpg" alt="ChatsworthHouse2" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h1 id="edensor">Edensor</h1>
 <h2 id="front">Front</h2>
-<p><img src="/assets/images/Edensor1.jpg" loading="lazy" alt="Edensor1" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Edensor1.jpg', 'Edensor 1')">
+    <img src="/assets/images/thumbnails/Edensor1_thumbnail.jpg" alt="Edensor1" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="on-the-road-to-edensor-from-bakewell-i-take-two-pictures">On the road to Edensor from Bakewell, I take two pictures.</h2>
-<p><img src="/assets/images/Bakewell1.jpg" loading="lazy" alt="Bakewell1" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Bakewell1.jpg', 'Bakewell 1')">
+    <img src="/assets/images/thumbnails/Bakewell1_thumbnail.jpg" alt="Bakewell1" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="this-tree-again">This tree again.</h2>
-<p><img src="/assets/images/EdensorTree2.jpg" loading="lazy" alt="EdensorTree2" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/EdensorTree2.jpg', 'Edensor Tree 2')">
+    <img src="/assets/images/thumbnails/EdensorTree2_thumbnail.jpg" alt="EdensorTree2" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>
 
 
   </div>
@@ -163,5 +218,28 @@
       
     </ul>
   </nav>
+
+  <!-- 弹出框HTML -->
+  <div id="image-popup">
+    <span class="close-btn" onclick="closeImagePopup()">&#10006;</span>
+    <img id="popup-image" src="" alt="">
+  </div>
+
+  <script>
+  function showImage(src, alt) {
+      var popup = document.getElementById('image-popup');
+      var popupImage = document.getElementById('popup-image');
+
+      popupImage.src = src;
+      popupImage.alt = alt;
+      popup.style.display = 'flex';
+  }
+
+  function closeImagePopup() {
+      var popup = document.getElementById('image-popup');
+      popup.style.display = 'none';
+  }
+  </script>
+
 </body>
 </html>

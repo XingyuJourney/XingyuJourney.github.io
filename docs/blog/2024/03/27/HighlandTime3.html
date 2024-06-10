@@ -125,6 +125,35 @@
       color: white;
       font-size: 1.5em;
     }
+
+    /* 弹出框样式 */
+    #image-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #image-popup img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    #image-popup .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
   </style>
 </head>
 <body>
@@ -138,30 +167,62 @@
 
 <h2 id="stage-zero">Stage zero</h2>
 <h3 id="at-first-i-didnt-realize-the-seriousness-of-this-situation">At first I didn’t realize the seriousness of this situation.</h3>
-<p><img src="/assets/images/BenNevisFoot.jpg" loading="lazy" alt="BenNevisFoot" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisFoot.jpg', 'Ben Nevis Foot')">
+    <img src="/assets/images/thumbnails/BenNevisFoot_thumbnail.jpg" alt="BenNevisFoot" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="stage-one">Stage one</h2>
 <h3 id="as-i-started-to-climb-the-sky-in-front-of-me-turned-cloudy-but-it-looked-like-good-weather-behind-me">As I started to climb, the sky in front of me turned cloudy, but it looked like good weather behind me.</h3>
-<p><img src="/assets/images/BenNevisClimb1.jpg" loading="lazy" alt="BenNevisClimb1" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb1.jpg', 'Ben Nevis Climb 1')">
+    <img src="/assets/images/thumbnails/BenNevisClimb1_thumbnail.jpg" alt="BenNevisClimb1" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/BenNevisClimb2.jpg" loading="lazy" alt="BenNevisClimb2" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb2.jpg', 'Ben Nevis Climb 2')">
+    <img src="/assets/images/thumbnails/BenNevisClimb2_thumbnail.jpg" alt="BenNevisClimb2" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="stage-two">Stage two</h2>
 <h3 id="at-this-time-i-had-climbed-halfway-up-the-mountain-although-visibility-was-poor-it-was-not-snowing">At this time, I had climbed halfway up the mountain. Although visibility was poor, it was not snowing.</h3>
-<p><img src="/assets/images/BenNevisClimb3.jpg" loading="lazy" alt="BenNevisClimb3" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb3.jpg', 'Ben Nevis Climb 3')">
+    <img src="/assets/images/thumbnails/BenNevisClimb3_thumbnail.jpg" alt="BenNevisClimb3" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/BenNevisClimb4.jpg" loading="lazy" alt="BenNevisClimb4" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb4.jpg', 'Ben Nevis Climb 4')">
+    <img src="/assets/images/thumbnails/BenNevisClimb4_thumbnail.jpg" alt="BenNevisClimb4" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="stage-three">Stage three</h2>
 <h3 id="when-i-climbed-above-the-snow-line-and-entered-the-final-stage-i-encountered-a-blizzard-because-i-didnt-have-basic-equipment-such-as-gloves-and-goggles-i-felt-like-i-was-in-prison-from-that-moment-on-the-visibility-was-very-low-and-i-could-only-see-the-road-under-my-feet">When I climbed above the snow line and entered the final stage, I encountered a blizzard. Because I didn’t have basic equipment such as gloves and goggles, I felt like I was in prison from that moment on. The visibility was very low and I could only see the road under my feet.</h3>
-
-<p><img src="/assets/images/BenNevisClimb5.jpg" loading="lazy" alt="BenNevisClimb5" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb5.jpg', 'Ben Nevis Climb 5')">
+    <img src="/assets/images/thumbnails/BenNevisClimb5_thumbnail.jpg" alt="BenNevisClimb5" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/BenNevisClimb6.jpg" loading="lazy" alt="BenNevisClimb6" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb6.jpg', 'Ben Nevis Climb 6')">
+    <img src="/assets/images/thumbnails/BenNevisClimb6_thumbnail.jpg" alt="BenNevisClimb6" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="leaving">Leaving</h2>
 <h3 id="after-the-sun-went-down-i-finally-reached-the-foot-of-the-mountain">After the sun went down, I finally reached the foot of the mountain.</h3>
-<p><img src="/assets/images/BenNevisLeaving.jpg" loading="lazy" alt="BenNevisLeaving" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisLeaving.jpg', 'Ben Nevis Leaving')">
+    <img src="/assets/images/thumbnails/BenNevisLeaving_thumbnail.jpg" alt="BenNevisLeaving" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>
+
 
   </div>
   <nav class="bottom-nav">
@@ -177,5 +238,28 @@
       
     </ul>
   </nav>
+
+  <!-- 弹出框HTML -->
+  <div id="image-popup">
+    <span class="close-btn" onclick="closeImagePopup()">&#10006;</span>
+    <img id="popup-image" src="" alt="">
+  </div>
+
+  <script>
+  function showImage(src, alt) {
+      var popup = document.getElementById('image-popup');
+      var popupImage = document.getElementById('popup-image');
+
+      popupImage.src = src;
+      popupImage.alt = alt;
+      popup.style.display = 'flex';
+  }
+
+  function closeImagePopup() {
+      var popup = document.getElementById('image-popup');
+      popup.style.display = 'none';
+  }
+  </script>
+
 </body>
 </html>

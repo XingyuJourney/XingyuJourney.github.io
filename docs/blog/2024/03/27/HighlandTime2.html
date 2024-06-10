@@ -125,6 +125,35 @@
       color: white;
       font-size: 1.5em;
     }
+
+    /* 弹出框样式 */
+    #image-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #image-popup img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    #image-popup .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
   </style>
 </head>
 <body>
@@ -138,23 +167,50 @@
 <h3 id="a-loch-located-on-the-west-coast-of-scotland-loch-linnhe-is-part-of-the-grand-canyon-and-the-only-lake-in-the-grand-canyon-that-is-actually-part-of-the-ocean">A loch located on the west coast of Scotland. Loch Linnhe is part of the Grand Canyon and the only lake in the Grand Canyon that is actually part of the ocean.</h3>
 
 <h3 id="it-is-rumored-that-an-unknown-marine-creature-called-linnhe-lives-here-why-does-it-feel-similar-to-the-legend-of-the-loch-ness-monster">It is rumored that an unknown marine creature called “Linnhe” lives here. (Why does it feel similar to the legend of the Loch Ness Monster)</h3>
-<p><img src="/assets/images/LochLinnhe.jpg" loading="lazy" alt="LochLinnhe" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/LochLinnhe.jpg', 'Loch Linnhe')">
+    <img src="/assets/images/thumbnails/LochLinnhe_thumbnail.jpg" alt="LochLinnhe" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="fort-william">Fort William</h2>
 
 <h3 id="located-in-the-west-highlands-the-town-is-described-as-the-outdoor-capital-of-the-uk-i-can-see-the-nearby-mountains-from-the-town">Located in the West Highlands, the town is described as the Outdoor Capital of the UK. I can see the nearby mountains from the town.</h3>
 
-<p><img src="/assets/images/NevisRangeFromFT.jpg" loading="lazy" alt="NevisRangeFromFT" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/NevisRangeFromFT.jpg', 'Nevis Range from Fort William')">
+    <img src="/assets/images/thumbnails/NevisRangeFromFT_thumbnail.jpg" alt="NevisRangeFromFT" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/FortWilliam.jpg" loading="lazy" alt="FortWilliam" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/FortWilliam.jpg', 'Fort William')">
+    <img src="/assets/images/thumbnails/FortWilliam_thumbnail.jpg" alt="FortWilliam" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="corran">Corran</h2>
 <h3 id="a-former-fishing-village">A former fishing village</h3>
-<p><img src="/assets/images/Corran.jpg" loading="lazy" alt="Corran" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Corran.jpg', 'Corran')">
+    <img src="/assets/images/thumbnails/Corran_thumbnail.jpg" alt="Corran" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h2 id="lower-falls">Lower Falls</h2>
 <h3 id="a-waterfall-in-glen-nevis">A waterfall in Glen Nevis</h3>
-<p><img src="/assets/images/LowerFalls.jpg" loading="lazy" alt="LowerFalls" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/LowerFalls.jpg', 'Lower Falls')">
+    <img src="/assets/images/thumbnails/LowerFalls_thumbnail.jpg" alt="LowerFalls" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>
+
 
   </div>
   <nav class="bottom-nav">
@@ -170,5 +226,28 @@
       
     </ul>
   </nav>
+
+  <!-- 弹出框HTML -->
+  <div id="image-popup">
+    <span class="close-btn" onclick="closeImagePopup()">&#10006;</span>
+    <img id="popup-image" src="" alt="">
+  </div>
+
+  <script>
+  function showImage(src, alt) {
+      var popup = document.getElementById('image-popup');
+      var popupImage = document.getElementById('popup-image');
+
+      popupImage.src = src;
+      popupImage.alt = alt;
+      popup.style.display = 'flex';
+  }
+
+  function closeImagePopup() {
+      var popup = document.getElementById('image-popup');
+      popup.style.display = 'none';
+  }
+  </script>
+
 </body>
 </html>

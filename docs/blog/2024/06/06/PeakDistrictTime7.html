@@ -125,6 +125,35 @@
       color: white;
       font-size: 1.5em;
     }
+
+    /* 弹出框样式 */
+    #image-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #image-popup img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    #image-popup .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
   </style>
 </head>
 <body>
@@ -135,14 +164,39 @@
     <h1 id="kinder-scout">Kinder Scout</h1>
 <h2 id="i-made-an-appointment-with-my-friend-to-go-hiking-together-it-rained-heavily-before-we-started-climbing-but-fortunately-the-weather-was-good-when-we-actually-started-climbing">I made an appointment with my friend to go hiking together. It rained heavily before we started climbing, but fortunately the weather was good when we actually started climbing.</h2>
 
-<p><img src="/assets/images/KinderScout1.jpg" loading="lazy" alt="KinderScout1" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout2.jpg', 'Kinder Scout 2')">
+    <img src="/assets/images/thumbnails/KinderScout2_thumbnail.jpg" alt="KinderScout2" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/KinderScout2.jpg" loading="lazy" alt="KinderScout2" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout1.jpg', 'Kinder Scout 1')">
+    <img src="/assets/images/thumbnails/KinderScout1_thumbnail.jpg" alt="KinderScout1" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
-<h2 id="because-we-didnt-look-at-the-map-when-climbing-we-realise-we-climb-the-wrong-mountain-after-we-reach-the-top">Because we didn’t look at the map when climbing, we realise we climb the wrong mountain after we reach the top.</h2>
-<p><img src="/assets/images/KinderScout3.jpg" loading="lazy" alt="KinderScout3" style="width: 100%; max-width: 100%; height: auto;" />
+<h2 id="because-we-didnt-look-at-the-map-when-climbing-we-realised-we-climbed-the-wrong-mountain-after-we-reached-the-top">Because we didn’t look at the map when climbing, we realised we climbed the wrong mountain after we reached the top.</h2>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout4.jpg', 'Kinder Scout 4')">
+    <img src="/assets/images/thumbnails/KinderScout4_thumbnail.jpg" alt="KinderScout4" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/KinderScout4.jpg" loading="lazy" alt="KinderScout4" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout3.jpg', 'Kinder Scout 3')">
+    <img src="/assets/images/thumbnails/KinderScout3_thumbnail.jpg" alt="KinderScout3" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>
+
 
   </div>
   <nav class="bottom-nav">
@@ -158,5 +212,28 @@
       
     </ul>
   </nav>
+
+  <!-- 弹出框HTML -->
+  <div id="image-popup">
+    <span class="close-btn" onclick="closeImagePopup()">&#10006;</span>
+    <img id="popup-image" src="" alt="">
+  </div>
+
+  <script>
+  function showImage(src, alt) {
+      var popup = document.getElementById('image-popup');
+      var popupImage = document.getElementById('popup-image');
+
+      popupImage.src = src;
+      popupImage.alt = alt;
+      popup.style.display = 'flex';
+  }
+
+  function closeImagePopup() {
+      var popup = document.getElementById('image-popup');
+      popup.style.display = 'none';
+  }
+  </script>
+
 </body>
 </html>

@@ -125,6 +125,35 @@
       color: white;
       font-size: 1.5em;
     }
+
+    /* 弹出框样式 */
+    #image-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #image-popup img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    #image-popup .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
   </style>
 </head>
 <body>
@@ -136,14 +165,22 @@
 
 <h2 id="bennerley-viaduct">Bennerley Viaduct</h2>
 <h3 id="an-old-bridge-in-ilkeston-completed-in-1877-it-carries-the-derbyshire-branch-of-the-great-northern-railway-and-crosses-the-river-erewash-and-its-broad-flat-valley-which-forms-the-county-boundary">An old bridge in Ilkeston. Completed in 1877, it carries the Derbyshire branch of the Great Northern Railway and crosses the River Erewash and its broad, flat valley which forms the county boundary.</h3>
-<p><img src="/assets/images/BennerleyViaduct1.jpg" loading="lazy" alt="BennerleyViaduct1" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BennerleyViaduct1.jpg', 'Bennerley Viaduct 1')">
+    <img src="/assets/images/thumbnails/BennerleyViaduct1_thumbnail.jpg" alt="BennerleyViaduct1" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
-<p><img src="/assets/images/BennerleyViaduct2.jpg" loading="lazy" alt="BennerleyViaduct2" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/BennerleyViaduct2.jpg', 'Bennerley Viaduct 2')">
+    <img src="/assets/images/thumbnails/BennerleyViaduct2_thumbnail.jpg" alt="BennerleyViaduct2" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
 <h3 id="the-windmill-and-surrounding-farms-can-be-seen-from-the-bennerley-viaduct">The windmill and surrounding farms can be seen from the Bennerley Viaduct</h3>
-<p><img src="/assets/images/IIkestonFarm.jpg" loading="lazy" alt="IIkestonFarm" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/IIkestonFarm.jpg', 'Ilkeston Farm')">
+    <img src="/assets/images/thumbnails/IIkestonFarm_thumbnail.jpg" alt="IIkestonFarm" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
 <br />
-<img src="/assets/images/IlkestonWindmill.jpg" loading="lazy" alt="IlkestonWindmill" style="width: 100%; max-width: 100%; height: auto;" /></p>
+<a href="javascript:void(0);" onclick="showImage('/assets/images/IlkestonWindmill.jpg', 'Ilkeston Windmill')">
+    <img src="/assets/images/thumbnails/IlkestonWindmill_thumbnail.jpg" alt="IlkestonWindmill" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
 
   </div>
   <nav class="bottom-nav">
@@ -159,5 +196,28 @@
       
     </ul>
   </nav>
+
+  <!-- 弹出框HTML -->
+  <div id="image-popup">
+    <span class="close-btn" onclick="closeImagePopup()">&#10006;</span>
+    <img id="popup-image" src="" alt="">
+  </div>
+
+  <script>
+  function showImage(src, alt) {
+      var popup = document.getElementById('image-popup');
+      var popupImage = document.getElementById('popup-image');
+
+      popupImage.src = src;
+      popupImage.alt = alt;
+      popup.style.display = 'flex';
+  }
+
+  function closeImagePopup() {
+      var popup = document.getElementById('image-popup');
+      popup.style.display = 'none';
+  }
+  </script>
+
 </body>
 </html>

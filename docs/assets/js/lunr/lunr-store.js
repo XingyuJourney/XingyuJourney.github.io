@@ -12,19 +12,19 @@ var store = [{
         "teaser": null
       },{
         "title": "Ilkeston",
-        "excerpt":"Ilkeston   Bennerley Viaduct  An old bridge in Ilkeston. Completed in 1877, it carries the Derbyshire branch of the Great Northern Railway and crosses the River Erewash and its broad, flat valley which forms the county boundary.        The windmill and surrounding farms can be seen from the Bennerley Viaduct       ","categories": ["blog"],
+        "excerpt":"Ilkeston   Bennerley Viaduct  An old bridge in Ilkeston. Completed in 1877, it carries the Derbyshire branch of the Great Northern Railway and crosses the River Erewash and its broad, flat valley which forms the county boundary.                    The windmill and surrounding farms can be seen from the Bennerley Viaduct                   ","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/01/27/IIkeston.html",
         "teaser": null
       },{
         "title": "River Trent",
-        "excerpt":"River Trent   A river that flows through Nottingham. I love walking along the river.   Sunset in river trent during the dry season     Sunset in river trent during the wet season    ","categories": ["blog"],
+        "excerpt":"River Trent   A river that flows through Nottingham. I love walking along the river.   Sunset in river trent during the dry season           Sunset in river trent during the wet season             ","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/01/27/NearNottingham.html",
         "teaser": null
       },{
         "title": "Peak District Part 1",
-        "excerpt":"Edensor   St Peter’s Church  Classic and beautiful building     Views around Edensor  Edensor is surrounded by large pastures and lawns, perfect for a leisurely afternoon walk.           A peaceful house.     During my walking, I came across a tree standing alone in the wilderness.    ","categories": ["blog"],
+        "excerpt":"Edensor   St Peter’s Church  Classic and beautiful building           Views around Edensor  Edensor is surrounded by large pastures and lawns, perfect for a leisurely afternoon walk.                             A peaceful house.           During my walking, I came across a tree standing alone in the wilderness.             ","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/02/12/PeakDistrictTime1.html",
         "teaser": null
@@ -36,13 +36,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Peak District Part 3",
-        "excerpt":"Chesterfield   Parish Church  Church with spiral angle     Baslow   Gardom’s Edge  Nice looking stone piles and a relaxing trail        Eagle Stone  A giant stone    ","categories": ["blog"],
+        "excerpt":"Chesterfield   Parish Church  Church with spiral angle           Baslow   Gardom’s Edge  Nice looking stone piles and a relaxing trail                    Eagle Stone  A giant stone             ","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/03/04/PeakDistrictTime3.html",
         "teaser": null
       },{
         "title": "Peak District Part 4",
-        "excerpt":"Baslow  Baslow Edge  The huge edge that can be seen from a distance, which is very impressive when you walk near.           The light  While taking a short break on the edge, I saw a light in the distance breaking through the clouds.    ","categories": ["blog"],
+        "excerpt":"Baslow  Baslow Edge  The huge edge that can be seen from a distance, which is very impressive when you walk near.                             The light  While taking a short break on the edge, I saw a light in the distance breaking through the clouds.             ","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/03/04/PeakDistrictTime4.html",
         "teaser": null
@@ -66,31 +66,31 @@ var store = [{
         "teaser": null
       },{
         "title": "Shanghai",
-        "excerpt":"Shanghai   A big city in China       ","categories": ["blog"],
+        "excerpt":"Shanghai   A big city in China                      ","categories": ["blog"],
         "tags": ["China"],
         "url": "/blog/2024/04/22/Shanghai.html",
         "teaser": null
       },{
         "title": "UoN Jubilee Campus",
-        "excerpt":"University of Nottingham   Jubilee Campus  The place I study in, a nice place.          ","categories": ["blog"],
+        "excerpt":"University of Nottingham   Jubilee Campus  The place I study in, a nice place.                               ","categories": ["blog"],
         "tags": ["China"],
         "url": "/blog/2024/04/22/UoNJubileeCampus.html",
         "teaser": null
       },{
         "title": "Peak District Part 5",
-        "excerpt":"Chatsworth House  A grand stately home        Edensor  Front     On the road to Edensor from Bakewell, I take two pictures.     This tree again.     ","categories": ["blog"],
+        "excerpt":"Chatsworth House  A grand stately home                    Edensor  Front           On the road to Edensor from Bakewell, I take two pictures.           This tree again.             ","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/05/24/PeakDistrictTime5.html",
         "teaser": null
       },{
         "title": "Peak District Part 6",
-        "excerpt":"Baslow  I came to Baslow again, but this time I lay on the rocks, bath the sun all day and only took a few pictures.           ","categories": ["blog"],
+        "excerpt":"Baslow  I came to Baslow again, but this time I lay on the rocks, bathed in the sun all day and only took a few pictures.                                ","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/06/02/PeakDistrictTime6.html",
         "teaser": null
       },{
         "title": "Peak District Part 7",
-        "excerpt":"Kinder Scout I made an appointment with my friend to go hiking together. It rained heavily before we started climbing, but fortunately the weather was good when we actually started climbing. Because we didn’t look at the map when climbing, we realise we climb the wrong mountain after we reach...","categories": ["blog"],
+        "excerpt":"Kinder Scout I made an appointment with my friend to go hiking together. It rained heavily before we started climbing, but fortunately the weather was good when we actually started climbing. Because we didn’t look at the map when climbing, we realised we climbed the wrong mountain after we reached...","categories": ["blog"],
         "tags": ["UK"],
         "url": "/blog/2024/06/06/PeakDistrictTime7.html",
         "teaser": null
