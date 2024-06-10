@@ -8,17 +8,42 @@ tags: [UK]
 
 # Chatsworth House
 ## A grand stately home
-<img src="/assets/images/ChatsworthHouse1.jpg" loading="lazy" alt="ChatsworthHouse1" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse1.jpg', 'Chatsworth House 1')">
+    <img src="/assets/images/thumbnails/ChatsworthHouse1_thumbnail.jpg" alt="ChatsworthHouse1" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 <br>
-<img src="/assets/images/ChatsworthHouse2.jpg" loading="lazy" alt="ChatsworthHouse2" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse2.jpg', 'Chatsworth House 2')">
+    <img src="/assets/images/thumbnails/ChatsworthHouse2_thumbnail.jpg" alt="ChatsworthHouse2" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 
 # Edensor
 ## Front
-<img src="/assets/images/Edensor1.jpg" loading="lazy" alt="Edensor1" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/Edensor1.jpg', 'Edensor 1')">
+    <img src="/assets/images/thumbnails/Edensor1_thumbnail.jpg" alt="Edensor1" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 
 ## On the road to Edensor from Bakewell, I take two pictures.
-<img src="/assets/images/Bakewell1.jpg" loading="lazy" alt="Bakewell1" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/Bakewell1.jpg', 'Bakewell 1')">
+    <img src="/assets/images/thumbnails/Bakewell1_thumbnail.jpg" alt="Bakewell1" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 
 ## This tree again.
-<img src="/assets/images/EdensorTree2.jpg" loading="lazy" alt="EdensorTree2" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/EdensorTree2.jpg', 'Edensor Tree 2')">
+    <img src="/assets/images/thumbnails/EdensorTree2_thumbnail.jpg" alt="EdensorTree2" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>

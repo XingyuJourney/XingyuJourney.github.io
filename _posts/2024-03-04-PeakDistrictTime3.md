@@ -10,16 +10,40 @@ tags: [UK]
 
 ## Parish Church
 ### Church with spiral angle
-<img src="/assets/images/ChesterfieldChurch.jpg" loading="lazy" alt="ChesterfieldChurch" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/ChesterfieldChurch.jpg', 'Parish Church')">
+    <img src="/assets/images/thumbnails/ChesterfieldChurch_thumbnail.jpg" alt="ChesterfieldChurch" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 
 # Baslow
 
 ## Gardom's Edge
 ### Nice looking stone piles and a relaxing trail
-<img src="/assets/images/GardomEdge1.jpg" loading="lazy" alt="GardomEdge1" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/GardomEdge1.jpg', 'Gardom\'s Edge 1')">
+    <img src="/assets/images/thumbnails/GardomEdge1_thumbnail.jpg" alt="GardomEdge1" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 <br>
-<img src="/assets/images/GardomEdge2.jpg" loading="lazy" alt="GardomEdge2" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/GardomEdge2.jpg', 'Gardom\'s Edge 2')">
+    <img src="/assets/images/thumbnails/GardomEdge2_thumbnail.jpg" alt="GardomEdge2" style="width: 100%; max-width: 100%; height: auto;">
+</a>
 
 ## Eagle Stone
 ### A giant stone
-<img src="/assets/images/EagleStone.jpg" loading="lazy" alt="EagleStone" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/EagleStone.jpg', 'Eagle Stone')">
+    <img src="/assets/images/thumbnails/EagleStone_thumbnail.jpg" alt="EagleStone" style="width: 100%; max-width: 100%; height: auto;">
+</a>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>
