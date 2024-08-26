@@ -16,19 +16,20 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      overflow: hidden; /* 禁止 body 滚动 */
     }
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 10px 20px; /* 调整 padding 以增加空间 */
-      background: rgba(0, 0, 0, 0.8); /* 纯色背景 */
+      padding: 10px 20px;
+      background: rgba(0, 0, 0, 0.8);
       width: 100%;
       position: fixed;
       top: 0;
       z-index: 1;
       opacity: 0;
-      animation: slideInFromTop 1s ease-in-out forwards; /* 渐入动画 */
+      animation: slideInFromTop 1s ease-in-out forwards;
     }
     header h1 {
       margin: 0;
@@ -47,30 +48,30 @@
       text-decoration: none;
       color: white;
       font-size: 1.2em;
-      white-space: nowrap; /* 防止导航文字换行 */
+      white-space: nowrap;
     }
     .content {
       padding: 20px;
-      background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+      background: rgba(0, 0, 0, 0.5);
       width: 80%;
       max-width: 800px;
-      height: 80vh; /* 使内容区域占据屏幕高度的 80% */
-      margin: 10vh auto; /* 使内容区域从屏幕高度的 10% 到 90% */
+      height: 80vh;
+      margin: 10vh auto;
       border-radius: 10px;
-      overflow-y: auto; /* 如果内容过多，则显示滚动条 */
+      overflow-y: auto; /* 使内容区域可滚动 */
       opacity: 0;
-      animation: fadeInUp 1s ease-in-out forwards; /* 渐入动画 */
-      animation-delay: 1s; /* 延迟 */
+      animation: fadeInUp 1s ease-in-out forwards;
+      animation-delay: 1s;
     }
     .blogs h1 {
-      text-align: center; /* 使<h1>元素居中 */
+      text-align: center;
     }
     .blogs ul li {
-      opacity: 0; /* 初始状态透明 */
-      animation: fadeInUp 1s ease-in-out forwards; /* 渐入动画 */
+      opacity: 0;
+      animation: fadeInUp 1s ease-in-out forwards;
     }
     .blogs ul li a {
-      font-size: 1.5em; /* 增大字体 */
+      font-size: 1.5em;
     }
     @keyframes slideInFromTop {
       from {
@@ -106,12 +107,12 @@
       position: fixed;
       bottom: 0;
       width: 100%;
-      background: rgba(0, 0, 0, 0.8); /* 纯色背景 */
+      background: rgba(0, 0, 0, 0.8);
       padding: 10px 0;
       text-align: center;
-      opacity: 0; /* 初始状态透明 */
-      animation: slideInFromBottom 1s ease-in-out forwards; /* 渐入动画 */
-      animation-delay: 2s; /* 延迟 */
+      opacity: 0;
+      animation: slideInFromBottom 1s ease-in-out forwards;
+      animation-delay: 2s;
     }
     .bottom-nav ul {
       list-style: none;

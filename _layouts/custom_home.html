@@ -16,6 +16,7 @@
       display: flex;
       flex-direction: column;
       height: 100vh;
+      overflow: hidden; /* 禁止 body 滚动 */
       animation: backgroundFade 2s ease-in-out; /* 背景渐变动画 */
     }
     @keyframes backgroundFade {
@@ -34,6 +35,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      overflow: hidden; /* 禁止 .overlay 滚动 */
       animation: fadeIn 1s ease-in-out; /* 渐入动画 */
     }
     @keyframes fadeIn {
