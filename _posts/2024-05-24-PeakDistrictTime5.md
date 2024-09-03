@@ -13,7 +13,7 @@ tags: [UK]
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse2.jpg', 'Chatsworth House 2')">
-    <img src="/assets/images/thumbnails/ChatsworthHouse2_thumbnail.jpg" alt="ChatsworthHouse2" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/ChatsworthHouse2_thumbnail.jpg" alt="ChatsworthHouse2" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 # Edensor
@@ -24,12 +24,12 @@ tags: [UK]
 
 ## On the road to Edensor from Bakewell, I take two pictures.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/Bakewell1.jpg', 'Bakewell 1')">
-    <img src="/assets/images/thumbnails/Bakewell1_thumbnail.jpg" alt="Bakewell1" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/Bakewell1_thumbnail.jpg" alt="Bakewell1" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 ## This tree again.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/EdensorTree2.jpg', 'Edensor Tree 2')">
-    <img src="/assets/images/thumbnails/EdensorTree2_thumbnail.jpg" alt="EdensorTree2" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/EdensorTree2_thumbnail.jpg" alt="EdensorTree2" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 <script>

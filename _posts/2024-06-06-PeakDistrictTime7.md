@@ -14,7 +14,7 @@ tags: [UK]
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout1.jpg', 'Kinder Scout 1')">
-    <img src="/assets/images/thumbnails/KinderScout1_thumbnail.jpg" alt="KinderScout1" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/KinderScout1_thumbnail.jpg" alt="KinderScout1" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 
@@ -25,7 +25,7 @@ tags: [UK]
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout3.jpg', 'Kinder Scout 3')">
-    <img src="/assets/images/thumbnails/KinderScout3_thumbnail.jpg" alt="KinderScout3" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/KinderScout3_thumbnail.jpg" alt="KinderScout3" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 

@@ -25,7 +25,7 @@ tags: [UK]
 
 ### I spent the entire day before I leave by sit near the Loch and surprise the fog is come, which make the Loch Ness another view.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/LochNessInFog.jpg', 'Loch Ness In Fog')">
-    <img src="/assets/images/thumbnails/LochNessInFog_thumbnail.jpg" alt="LochNessInFog" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/LochNessInFog_thumbnail.jpg" alt="LochNessInFog" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 ## Urquhart Castle

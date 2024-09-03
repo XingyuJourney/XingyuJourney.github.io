@@ -19,11 +19,11 @@ tags: [UK]
 ## Stage one
 ### As I started to climb, the sky in front of me turned cloudy, but it looked like good weather behind me.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb1.jpg', 'Ben Nevis Climb 1')">
-    <img src="/assets/images/thumbnails/BenNevisClimb1_thumbnail.jpg" alt="BenNevisClimb1" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/BenNevisClimb1_thumbnail.jpg" alt="BenNevisClimb1" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb2.jpg', 'Ben Nevis Climb 2')">
-    <img src="/assets/images/thumbnails/BenNevisClimb2_thumbnail.jpg" alt="BenNevisClimb2" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/BenNevisClimb2_thumbnail.jpg" alt="BenNevisClimb2" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 ## Stage two
@@ -43,13 +43,13 @@ tags: [UK]
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb6.jpg', 'Ben Nevis Climb 6')">
-    <img src="/assets/images/thumbnails/BenNevisClimb6_thumbnail.jpg" alt="BenNevisClimb6" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/BenNevisClimb6_thumbnail.jpg" alt="BenNevisClimb6" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 ## Leaving
 ### After the sun went down, I finally reached the foot of the mountain.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisLeaving.jpg', 'Ben Nevis Leaving')">
-    <img src="/assets/images/thumbnails/BenNevisLeaving_thumbnail.jpg" alt="BenNevisLeaving" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/BenNevisLeaving_thumbnail.jpg" alt="BenNevisLeaving" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 <script>

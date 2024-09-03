@@ -15,15 +15,15 @@ tags: [UK]
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/GlenNevis2.jpg', 'Glen Nevis 2')">
-    <img src="/assets/images/thumbnails/GlenNevis2_thumbnail.jpg" alt="GlenNevis2" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/GlenNevis2_thumbnail.jpg" alt="GlenNevis2" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/GlenNevis3.jpg', 'Glen Nevis 3')">
-    <img src="/assets/images/thumbnails/GlenNevis3_thumbnail.jpg" alt="GlenNevis3" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/GlenNevis3_thumbnail.jpg" alt="GlenNevis3" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/GlenNevis4.jpg', 'Glen Nevis 4')">
-    <img src="/assets/images/thumbnails/GlenNevis4_thumbnail.jpg" alt="GlenNevis4" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/GlenNevis4_thumbnail.jpg" alt="GlenNevis4" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/GlenNevis5.jpg', 'Glen Nevis 5')">

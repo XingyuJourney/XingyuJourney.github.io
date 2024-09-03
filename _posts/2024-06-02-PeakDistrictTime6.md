@@ -10,7 +10,7 @@ tags: [UK]
 ## I came to Baslow again, but this time I lay on the rocks, bathed in the sun all day and only took a few pictures.
 
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BaslowAgain1.jpg', 'Baslow Again 1')">
-    <img src="/assets/images/thumbnails/BaslowAgain1_thumbnail.jpg" alt="BaslowAgain1" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/BaslowAgain1_thumbnail.jpg" alt="BaslowAgain1" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BaslowAgain2.jpg', 'Baslow Again 2')">

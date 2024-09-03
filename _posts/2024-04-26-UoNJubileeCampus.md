@@ -11,11 +11,11 @@ tags: [China]
 ## Jubilee Campus
 ### The place I study in, a nice place.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/UoNJubileeCampus1.jpg', 'UoN Jubilee Campus 1')">
-    <img src="/assets/images/thumbnails/UoNJubileeCampus1_thumbnail.jpg" alt="UoNJubileeCampus1" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/UoNJubileeCampus1_thumbnail.jpg" alt="UoNJubileeCampus1" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/UoNJubileeCampus2.jpg', 'UoN Jubilee Campus 2')">
-    <img src="/assets/images/thumbnails/UoNJubileeCampus2_thumbnail.jpg" alt="UoNJubileeCampus2" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/UoNJubileeCampus2_thumbnail.jpg" alt="UoNJubileeCampus2" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/UoNJubileeCampus3.jpg', 'UoN Jubilee Campus 3')">

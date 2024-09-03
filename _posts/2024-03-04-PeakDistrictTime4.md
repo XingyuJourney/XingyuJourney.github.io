@@ -10,7 +10,7 @@ tags: [UK]
 ## Baslow Edge
 ### The huge edge that can be seen from a distance, which is very impressive when you walk near.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BaslowEdge1.jpg', 'Baslow Edge 1')">
-    <img src="/assets/images/thumbnails/BaslowEdge1_thumbnail.jpg" alt="BaslowEdge1" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/BaslowEdge1_thumbnail.jpg" alt="BaslowEdge1" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BaslowEdge2.jpg', 'Baslow Edge 2')">
@@ -18,7 +18,7 @@ tags: [UK]
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BaslowEdge3.jpg', 'Baslow Edge 3')">
-    <img src="/assets/images/thumbnails/BaslowEdge3_thumbnail.jpg" alt="BaslowEdge3" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/BaslowEdge3_thumbnail.jpg" alt="BaslowEdge3" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 ## The light

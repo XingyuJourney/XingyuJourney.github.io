@@ -11,7 +11,7 @@ tags: [UK]
 ## St Peter's Church
 ### Classic and beautiful building
 <a href="javascript:void(0);" onclick="showImage('/assets/images/EdensorChurch.jpg', 'St Peter\'s Church')">
-    <img src="/assets/images/thumbnails/EdensorChurch_thumbnail.jpg" alt="EdensorChurch" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/EdensorChurch_thumbnail.jpg" alt="EdensorChurch" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 ## Views around Edensor
@@ -35,7 +35,7 @@ tags: [UK]
 
 ### During my walking, I came across a tree standing alone in the wilderness.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/EdensorTree.jpg', 'Edensor Tree')">
-    <img src="/assets/images/thumbnails/EdensorTree_thumbnail.jpg" alt="EdensorTree" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/EdensorTree_thumbnail.jpg" alt="EdensorTree" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 <script>

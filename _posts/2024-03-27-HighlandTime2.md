@@ -24,7 +24,7 @@ tags: [UK]
 </a>
 <br>
 <a href="javascript:void(0);" onclick="showImage('/assets/images/FortWilliam.jpg', 'Fort William')">
-    <img src="/assets/images/thumbnails/FortWilliam_thumbnail.jpg" alt="FortWilliam" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/FortWilliam_thumbnail.jpg" alt="FortWilliam" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 ## Corran
@@ -36,7 +36,7 @@ tags: [UK]
 ## Lower Falls
 ### A waterfall in Glen Nevis
 <a href="javascript:void(0);" onclick="showImage('/assets/images/LowerFalls.jpg', 'Lower Falls')">
-    <img src="/assets/images/thumbnails/LowerFalls_thumbnail.jpg" alt="LowerFalls" style="width: 100%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/LowerFalls_thumbnail.jpg" alt="LowerFalls" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
 <script>
