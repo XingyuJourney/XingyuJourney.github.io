@@ -16,6 +16,7 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      overflow: hidden; /* 禁止 body 滚动 */
     }
     header {
       display: flex;
@@ -93,7 +94,7 @@
       height: 80vh;
       margin: 10vh auto;
       border-radius: 10px;
-      overflow-y: auto;
+      overflow-y: auto; /* 允许 .content 区域垂直滚动 */
       opacity: 0;
       animation: fadeInUp 1s ease-in-out forwards;
       animation-delay: 1s;
@@ -199,6 +200,18 @@
       <button class="dropbtn">&#x1F4D6;</button> <!-- 使用 HTML 实体编码表示符号 -->
       <div class="dropdown-content">
         
+        <a href="/blog/2024/07/17/Tokyo3.html">Tokyo 3</a>
+        
+        <a href="/blog/2024/07/16/Tokyo2.html">Tokyo 2</a>
+        
+        <a href="/blog/2024/07/15/Tokyo1.html">Tokyo 1</a>
+        
+        <a href="/blog/2024/07/09/IzuPeninsula.html">Izu Peninsula</a>
+        
+        <a href="/blog/2024/07/06/Okutama2.html">Okutama - Urban View</a>
+        
+        <a href="/blog/2024/07/06/Okutama1.html">Okutama - Nature View</a>
+        
         <a href="/blog/2024/06/06/PeakDistrictTime7.html">Peak District Part 7</a>
         
         <a href="/blog/2024/06/02/PeakDistrictTime6.html">Peak District Part 6</a>
@@ -244,7 +257,7 @@
 </a>
 <br />
 <a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout1.jpg', 'Kinder Scout 1')">
-    <img src="/assets/images/thumbnails/KinderScout1_thumbnail.jpg" alt="KinderScout1" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/KinderScout1_thumbnail.jpg" alt="KinderScout1" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <h2 id="because-we-didnt-look-at-the-map-when-climbing-we-realised-we-climbed-the-wrong-mountain-after-we-reached-the-top">Because we didn’t look at the map when climbing, we realised we climbed the wrong mountain after we reached the top.</h2>
@@ -253,7 +266,7 @@
 </a>
 <br />
 <a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout3.jpg', 'Kinder Scout 3')">
-    <img src="/assets/images/thumbnails/KinderScout3_thumbnail.jpg" alt="KinderScout3" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/KinderScout3_thumbnail.jpg" alt="KinderScout3" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <script>

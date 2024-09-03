@@ -16,6 +16,7 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      overflow: hidden; /* 禁止 body 滚动 */
     }
     header {
       display: flex;
@@ -93,7 +94,7 @@
       height: 80vh;
       margin: 10vh auto;
       border-radius: 10px;
-      overflow-y: auto;
+      overflow-y: auto; /* 允许 .content 区域垂直滚动 */
       opacity: 0;
       animation: fadeInUp 1s ease-in-out forwards;
       animation-delay: 1s;
@@ -199,6 +200,18 @@
       <button class="dropbtn">&#x1F4D6;</button> <!-- 使用 HTML 实体编码表示符号 -->
       <div class="dropdown-content">
         
+        <a href="/blog/2024/07/17/Tokyo3.html">Tokyo 3</a>
+        
+        <a href="/blog/2024/07/16/Tokyo2.html">Tokyo 2</a>
+        
+        <a href="/blog/2024/07/15/Tokyo1.html">Tokyo 1</a>
+        
+        <a href="/blog/2024/07/09/IzuPeninsula.html">Izu Peninsula</a>
+        
+        <a href="/blog/2024/07/06/Okutama2.html">Okutama - Urban View</a>
+        
+        <a href="/blog/2024/07/06/Okutama1.html">Okutama - Nature View</a>
+        
         <a href="/blog/2024/06/06/PeakDistrictTime7.html">Peak District Part 7</a>
         
         <a href="/blog/2024/06/02/PeakDistrictTime6.html">Peak District Part 6</a>
@@ -249,11 +262,11 @@
 <h2 id="stage-one">Stage one</h2>
 <h3 id="as-i-started-to-climb-the-sky-in-front-of-me-turned-cloudy-but-it-looked-like-good-weather-behind-me">As I started to climb, the sky in front of me turned cloudy, but it looked like good weather behind me.</h3>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb1.jpg', 'Ben Nevis Climb 1')">
-    <img src="/assets/images/thumbnails/BenNevisClimb1_thumbnail.jpg" alt="BenNevisClimb1" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/BenNevisClimb1_thumbnail.jpg" alt="BenNevisClimb1" style="width: 50%; max-width: 100%; height: auto;" />
 </a>
 <br />
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb2.jpg', 'Ben Nevis Climb 2')">
-    <img src="/assets/images/thumbnails/BenNevisClimb2_thumbnail.jpg" alt="BenNevisClimb2" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/BenNevisClimb2_thumbnail.jpg" alt="BenNevisClimb2" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <h2 id="stage-two">Stage two</h2>
@@ -273,13 +286,13 @@
 </a>
 <br />
 <a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisClimb6.jpg', 'Ben Nevis Climb 6')">
-    <img src="/assets/images/thumbnails/BenNevisClimb6_thumbnail.jpg" alt="BenNevisClimb6" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/BenNevisClimb6_thumbnail.jpg" alt="BenNevisClimb6" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <h2 id="leaving">Leaving</h2>
 <h3 id="after-the-sun-went-down-i-finally-reached-the-foot-of-the-mountain">After the sun went down, I finally reached the foot of the mountain.</h3>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/BenNevisLeaving.jpg', 'Ben Nevis Leaving')">
-    <img src="/assets/images/thumbnails/BenNevisLeaving_thumbnail.jpg" alt="BenNevisLeaving" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/BenNevisLeaving_thumbnail.jpg" alt="BenNevisLeaving" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <script>

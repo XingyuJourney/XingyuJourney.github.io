@@ -16,6 +16,7 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      overflow: hidden; /* 禁止 body 滚动 */
     }
     header {
       display: flex;
@@ -93,7 +94,7 @@
       height: 80vh;
       margin: 10vh auto;
       border-radius: 10px;
-      overflow-y: auto;
+      overflow-y: auto; /* 允许 .content 区域垂直滚动 */
       opacity: 0;
       animation: fadeInUp 1s ease-in-out forwards;
       animation-delay: 1s;
@@ -199,6 +200,18 @@
       <button class="dropbtn">&#x1F4D6;</button> <!-- 使用 HTML 实体编码表示符号 -->
       <div class="dropdown-content">
         
+        <a href="/blog/2024/07/17/Tokyo3.html">Tokyo 3</a>
+        
+        <a href="/blog/2024/07/16/Tokyo2.html">Tokyo 2</a>
+        
+        <a href="/blog/2024/07/15/Tokyo1.html">Tokyo 1</a>
+        
+        <a href="/blog/2024/07/09/IzuPeninsula.html">Izu Peninsula</a>
+        
+        <a href="/blog/2024/07/06/Okutama2.html">Okutama - Urban View</a>
+        
+        <a href="/blog/2024/07/06/Okutama1.html">Okutama - Nature View</a>
+        
         <a href="/blog/2024/06/06/PeakDistrictTime7.html">Peak District Part 7</a>
         
         <a href="/blog/2024/06/02/PeakDistrictTime6.html">Peak District Part 6</a>
@@ -242,12 +255,12 @@
 
 <h2 id="sunset-in-river-trent-during-the-dry-season">Sunset in river trent during the dry season</h2>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/SunSetRiverTrent1.jpg', 'Sunset in River Trent during the dry season')">
-    <img src="/assets/images/thumbnails/SunSetRiverTrent1_thumbnail.jpg" alt="SunSetRiverTrent1" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/SunSetRiverTrent1_thumbnail.jpg" alt="SunSetRiverTrent1" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <h2 id="sunset-in-river-trent-during-the-wet-season">Sunset in river trent during the wet season</h2>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/SunSetRiverTrent2.jpg', 'Sunset in River Trent during the wet season')">
-    <img src="/assets/images/thumbnails/SunSetRiverTrent2_thumbnail.jpg" alt="SunSetRiverTrent2" style="width: 100%; max-width: 100%; height: auto;" />
+    <img src="/assets/images/thumbnails/SunSetRiverTrent2_thumbnail.jpg" alt="SunSetRiverTrent2" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <script>
