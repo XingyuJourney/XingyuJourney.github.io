@@ -95,9 +95,39 @@ var store = [{
         "url": "/blog/2024/06/06/PeakDistrictTime7.html",
         "teaser": null
       },{
-        "title": "Okutama",
-        "excerpt":"Okutama   The mountains near Tokyo look beautiful from the outside, but it’s not comfortable to walk in. The trees are so dense that you can’t see the sun, but the temperature is cool.                         A beautiful house among mountains              ","categories": ["blog"],
+        "title": "Okutama - Nature View",
+        "excerpt":"Okutama - Nature View   The mountains near Tokyo look beautiful from the outside, but it’s not comfortable to walk in. The trees are so dense that you can’t see the sun, but the temperature is cool.                         A beautiful house among mountains              ","categories": ["blog"],
         "tags": ["Japan"],
-        "url": "/blog/2024/07/06/Okutama.html",
+        "url": "/blog/2024/07/06/Okutama1.html",
+        "teaser": null
+      },{
+        "title": "Okutama - Urban View",
+        "excerpt":"Okutama - Urban View   Okutama Kodanba Kumano Shrine            A house on the roadside           Suniwa Bridge             ","categories": ["blog"],
+        "tags": ["Japan"],
+        "url": "/blog/2024/07/06/Okutama2.html",
+        "teaser": null
+      },{
+        "title": "Izu Peninsula",
+        "excerpt":"Jogasaki Coast  A famous coastline attraction in the eastern part of Izu Peninsula                        Mount Fuji From Far  Symmetrical conical volcano           Izu Nagaoka  Chitosebashiteigaichi Park             ","categories": ["blog"],
+        "tags": ["Japan"],
+        "url": "/blog/2024/07/09/IzuPeninsula.html",
+        "teaser": null
+      },{
+        "title": "Tokyo 1",
+        "excerpt":"Tokyo Skytree                         Beautiful city view             ","categories": ["blog"],
+        "tags": ["Japan"],
+        "url": "/blog/2024/07/15/Tokyo1.html",
+        "teaser": null
+      },{
+        "title": "Tokyo 2",
+        "excerpt":"Senso-ji  One of Tokyo’s oldest and most famous temples            Tradition Meets Modernity: Senso-ji and Tokyo Skytree            Shinjuku  Mode Gakuen Cocoon Tower                          ","categories": ["blog"],
+        "tags": ["Japan"],
+        "url": "/blog/2024/07/16/Tokyo2.html",
+        "teaser": null
+      },{
+        "title": "Tokyo 3",
+        "excerpt":"Tokyu Kabukicho Tower(probably)           Rainbow Bridge           Don’t know where is this picture  I take this picture during a boat trip             ","categories": ["blog"],
+        "tags": ["Japan"],
+        "url": "/blog/2024/07/17/Tokyo3.html",
         "teaser": null
       }]
