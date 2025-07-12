@@ -1,0 +1,3 @@
+本地运行网站 bundle exec jekyll serve
+产生网站 bundle exec jekyll build
+

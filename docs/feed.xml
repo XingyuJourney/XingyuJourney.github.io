@@ -1,15 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://xingyujourney.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xingyujourney.github.io/" rel="alternate" type="text/html" /><updated>2024-09-03T20:56:20+08:00</updated><id>https://xingyujourney.github.io/feed.xml</id><title type="html">The Journey of Xingyu ZHU</title><subtitle>Welcome to my extraordinary journey captured in camera!  Embark on an immersive adventure through captivating landscapes, vibrant cultures, and unforgettable moments frozen in time.  Join me as I traverse the globe, sharing tales of exploration and discovery through the lens of my camera.  From the serene shores of secluded beaches to the bustling streets of bustling cities, each photograph tells a story, inviting you to wanderlust alongside me.  Whether you seek inspiration for your next escapade or simply crave a visual escape, let my site be your passport to wanderlust and wonder.</subtitle><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><entry><title type="html">Tokyo 3</title><link href="https://xingyujourney.github.io/blog/2024/07/17/Tokyo3.html" rel="alternate" type="text/html" title="Tokyo 3" /><published>2024-07-17T00:00:00+08:00</published><updated>2024-07-17T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/17/Tokyo3</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/17/Tokyo3.html"><![CDATA[<h1 id="tokyu-kabukicho-towerprobably">Tokyu Kabukicho Tower(probably)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://xingyujourney.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xingyujourney.github.io/" rel="alternate" type="text/html" /><updated>2025-07-12T18:42:39+08:00</updated><id>https://xingyujourney.github.io/feed.xml</id><title type="html">The Journey of Xingyu ZHU</title><subtitle>Welcome to my extraordinary journey captured in camera!  Embark on an immersive adventure through captivating landscapes, vibrant cultures, and unforgettable moments frozen in time.  Join me as I traverse the globe, sharing tales of exploration and discovery through the lens of my camera.  From the serene shores of secluded beaches to the bustling streets of bustling cities, each photograph tells a story, inviting you to wanderlust alongside me.  Whether you seek inspiration for your next escapade or simply crave a visual escape, let my site be your passport to wanderlust and wonder.</subtitle><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><entry><title type="html">Senso-ji</title><link href="https://xingyujourney.github.io/blog/2024/07/16/Tokyo2.html" rel="alternate" type="text/html" title="Senso-ji" /><published>2024-07-16T00:00:00+08:00</published><updated>2024-07-16T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/16/Tokyo2</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/16/Tokyo2.html"><![CDATA[<h2 id="one-of-tokyos-oldest-and-most-famous-temples">One of Tokyo’s oldest and most famous temples</h2>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView4.jpg', 'TokyoCityView4')">
+    <img src="/assets/images/thumbnails/TokyoCityView4_thumbnail.jpg" alt="TokyoCityView4" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="tradition-meets-modernity-senso-ji-and-tokyo-skytree">Tradition Meets Modernity: Senso-ji and Tokyo Skytree</h2>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView5.jpg', 'TokyoCityView5')">
+    <img src="/assets/images/thumbnails/TokyoCityView5_thumbnail.jpg" alt="TokyoCityView5" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[One of Tokyo’s oldest and most famous temples]]></summary></entry><entry><title type="html">Tokyo</title><link href="https://xingyujourney.github.io/blog/2024/07/15/Tokyo1.html" rel="alternate" type="text/html" title="Tokyo" /><published>2024-07-15T00:00:00+08:00</published><updated>2024-07-15T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/15/Tokyo1</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/15/Tokyo1.html"><![CDATA[<h2 id="tokyo-skytree">Tokyo Skytree</h2>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView3.jpg', 'TokyoCityView3')">
+    <img src="/assets/images/thumbnails/TokyoCityView3_thumbnail.jpg" alt="TokyoCityView3" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<p><br /></p>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView2.jpg', 'TokyoCityView2')">
+    <img src="/assets/images/thumbnails/TokyoCityView2_thumbnail.jpg" alt="TokyoCityView2" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="beautiful-city-view">Beautiful city view</h2>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView1.jpg', 'TokyoCityView1')">
+    <img src="/assets/images/thumbnails/TokyoCityView1_thumbnail.jpg" alt="TokyoCityView1" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="shinjuku">Shinjuku</h2>
+<h3 id="mode-gakuen-cocoon-tower">Mode Gakuen Cocoon Tower</h3>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView6.jpg', 'TokyoCityView6')">
+    <img src="/assets/images/thumbnails/TokyoCityView6_thumbnail.jpg" alt="TokyoCityView6" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<p><br /></p>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView7.jpg', 'TokyoCityView7')">
+    <img src="/assets/images/thumbnails/TokyoCityView7_thumbnail.jpg" alt="TokyoCityView7" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="tokyu-kabukicho-towerprobably">Tokyu Kabukicho Tower(probably)</h2>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView8.jpg', 'TokyoCityView8')">
     <img src="/assets/images/thumbnails/TokyoCityView8_thumbnail.jpg" alt="TokyoCityView8" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
-<h1 id="rainbow-bridge">Rainbow Bridge</h1>
+<h2 id="rainbow-bridge">Rainbow Bridge</h2>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView10.jpg', 'TokyoCityView10')">
     <img src="/assets/images/thumbnails/TokyoCityView10_thumbnail.jpg" alt="TokyoCityView10" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
-<h1 id="dont-know-where-is-this-picture">Don’t know where is this picture</h1>
-<h2 id="i-take-this-picture-during-a-boat-trip">I take this picture during a boat trip</h2>
+<h2 id="dont-know-where-is-this-picture-i-take-this-picture-during-a-boat-trip">Don’t know where is this picture, I take this picture during a boat trip</h2>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView9.jpg', 'TokyoCityView9')">
     <img src="/assets/images/thumbnails/TokyoCityView9_thumbnail.jpg" alt="TokyoCityView9" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
@@ -28,78 +82,8 @@ function closeImagePopup() {
     var popup = document.getElementById('image-popup');
     popup.style.display = 'none';
 }
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Tokyu Kabukicho Tower(probably)]]></summary></entry><entry><title type="html">Tokyo 2</title><link href="https://xingyujourney.github.io/blog/2024/07/16/Tokyo2.html" rel="alternate" type="text/html" title="Tokyo 2" /><published>2024-07-16T00:00:00+08:00</published><updated>2024-07-16T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/16/Tokyo2</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/16/Tokyo2.html"><![CDATA[<h1 id="senso-ji">Senso-ji</h1>
-<h2 id="one-of-tokyos-oldest-and-most-famous-temples">One of Tokyo’s oldest and most famous temples</h2>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView4.jpg', 'TokyoCityView4')">
-    <img src="/assets/images/thumbnails/TokyoCityView4_thumbnail.jpg" alt="TokyoCityView4" style="width: 50%; max-width: 100%; height: auto;" />
-</a></p>
-
-<h2 id="tradition-meets-modernity-senso-ji-and-tokyo-skytree">Tradition Meets Modernity: Senso-ji and Tokyo Skytree</h2>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView5.jpg', 'TokyoCityView5')">
-    <img src="/assets/images/thumbnails/TokyoCityView5_thumbnail.jpg" alt="TokyoCityView5" style="width: 50%; max-width: 100%; height: auto;" />
-</a></p>
-
-<h1 id="shinjuku">Shinjuku</h1>
-<h2 id="mode-gakuen-cocoon-tower">Mode Gakuen Cocoon Tower</h2>
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView6.jpg', 'TokyoCityView6')">
-    <img src="/assets/images/thumbnails/TokyoCityView6_thumbnail.jpg" alt="TokyoCityView6" style="width: 100%; max-width: 100%; height: auto;" />
-</a></p>
-
-<p><br /></p>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView7.jpg', 'TokyoCityView7')">
-    <img src="/assets/images/thumbnails/TokyoCityView7_thumbnail.jpg" alt="TokyoCityView7" style="width: 50%; max-width: 100%; height: auto;" />
-</a></p>
-
-<script>
-function showImage(src, alt) {
-    var popup = document.getElementById('image-popup');
-    var popupImage = document.getElementById('popup-image');
-
-    popupImage.src = src;
-    popupImage.alt = alt;
-    popup.style.display = 'flex';
-}
-
-function closeImagePopup() {
-    var popup = document.getElementById('image-popup');
-    popup.style.display = 'none';
-}
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Senso-ji One of Tokyo’s oldest and most famous temples]]></summary></entry><entry><title type="html">Tokyo 1</title><link href="https://xingyujourney.github.io/blog/2024/07/15/Tokyo1.html" rel="alternate" type="text/html" title="Tokyo 1" /><published>2024-07-15T00:00:00+08:00</published><updated>2024-07-15T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/15/Tokyo1</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/15/Tokyo1.html"><![CDATA[<h1 id="tokyo-skytree">Tokyo Skytree</h1>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView3.jpg', 'TokyoCityView3')">
-    <img src="/assets/images/thumbnails/TokyoCityView3_thumbnail.jpg" alt="TokyoCityView3" style="width: 50%; max-width: 100%; height: auto;" />
-</a></p>
-
-<p><br /></p>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView2.jpg', 'TokyoCityView2')">
-    <img src="/assets/images/thumbnails/TokyoCityView2_thumbnail.jpg" alt="TokyoCityView2" style="width: 100%; max-width: 100%; height: auto;" />
-</a></p>
-
-<h1 id="beautiful-city-view">Beautiful city view</h1>
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/TokyoCityView1.jpg', 'TokyoCityView1')">
-    <img src="/assets/images/thumbnails/TokyoCityView1_thumbnail.jpg" alt="TokyoCityView1" style="width: 50%; max-width: 100%; height: auto;" />
-</a></p>
-
-<script>
-function showImage(src, alt) {
-    var popup = document.getElementById('image-popup');
-    var popupImage = document.getElementById('popup-image');
-
-    popupImage.src = src;
-    popupImage.alt = alt;
-    popup.style.display = 'flex';
-}
-
-function closeImagePopup() {
-    var popup = document.getElementById('image-popup');
-    popup.style.display = 'none';
-}
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Tokyo Skytree]]></summary></entry><entry><title type="html">Izu Peninsula</title><link href="https://xingyujourney.github.io/blog/2024/07/09/IzuPeninsula.html" rel="alternate" type="text/html" title="Izu Peninsula" /><published>2024-07-09T00:00:00+08:00</published><updated>2024-07-09T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/09/IzuPeninsula</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/09/IzuPeninsula.html"><![CDATA[<h1 id="jogasaki-coast">Jogasaki Coast</h1>
-<h2 id="a-famous-coastline-attraction-in-the-eastern-part-of-izu-peninsula">A famous coastline attraction in the eastern part of Izu Peninsula</h2>
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Tokyo Skytree]]></summary></entry><entry><title type="html">Izu Peninsula</title><link href="https://xingyujourney.github.io/blog/2024/07/09/IzuPeninsula.html" rel="alternate" type="text/html" title="Izu Peninsula" /><published>2024-07-09T00:00:00+08:00</published><updated>2024-07-09T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/09/IzuPeninsula</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/09/IzuPeninsula.html"><![CDATA[<h2 id="jogasaki-coast">Jogasaki Coast</h2>
+<h3 id="a-famous-coastline-attraction-in-the-eastern-part-of-izu-peninsula">A famous coastline attraction in the eastern part of Izu Peninsula</h3>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/城ヶ崎海岸1.jpg', '城ヶ崎海岸')">
     <img src="/assets/images/thumbnails/城ヶ崎海岸1_thumbnail.jpg" alt="城ヶ崎海岸1" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
@@ -110,14 +94,14 @@ function closeImagePopup() {
     <img src="/assets/images/thumbnails/城ヶ崎海岸2_thumbnail.jpg" alt="城ヶ崎海岸2" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
-<h1 id="mount-fuji-from-far">Mount Fuji From Far</h1>
-<h2 id="symmetrical-conical-volcano">Symmetrical conical volcano</h2>
+<h2 id="mount-fuji-from-far">Mount Fuji From Far</h2>
+<h3 id="symmetrical-conical-volcano">Symmetrical conical volcano</h3>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/MtFuji1.jpg', 'MtFuji')">
     <img src="/assets/images/thumbnails/MtFuji1_thumbnail.jpg" alt="MtFuji1" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
-<h1 id="izu-nagaoka">Izu Nagaoka</h1>
-<h2 id="chitosebashiteigaichi-park">Chitosebashiteigaichi Park</h2>
+<h2 id="izu-nagaoka">Izu Nagaoka</h2>
+<h3 id="chitosebashiteigaichi-park">Chitosebashiteigaichi Park</h3>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/伊豆長岡.jpg', '伊豆長岡')">
     <img src="/assets/images/thumbnails/伊豆長岡_thumbnail.jpg" alt="伊豆長岡" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
@@ -136,9 +120,25 @@ function closeImagePopup() {
     var popup = document.getElementById('image-popup');
     popup.style.display = 'none';
 }
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Jogasaki Coast A famous coastline attraction in the eastern part of Izu Peninsula]]></summary></entry><entry><title type="html">Okutama - Urban View</title><link href="https://xingyujourney.github.io/blog/2024/07/06/Okutama2.html" rel="alternate" type="text/html" title="Okutama - Urban View" /><published>2024-07-06T00:00:00+08:00</published><updated>2024-07-06T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/06/Okutama2</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/06/Okutama2.html"><![CDATA[<h1 id="okutama---urban-view">Okutama - Urban View</h1>
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Jogasaki Coast A famous coastline attraction in the eastern part of Izu Peninsula]]></summary></entry><entry><title type="html">Okutama</title><link href="https://xingyujourney.github.io/blog/2024/07/06/Okutama1.html" rel="alternate" type="text/html" title="Okutama" /><published>2024-07-06T00:00:00+08:00</published><updated>2024-07-06T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/06/Okutama1</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/06/Okutama1.html"><![CDATA[<h2 id="the-mountains-near-tokyo-look-beautiful-from-the-outside-but-its-not-comfortable-to-walk-in-the-trees-are-so-dense-that-you-cant-see-the-sun-but-the-temperature-is-cool">The mountains near Tokyo look beautiful from the outside, but it’s not comfortable to walk in. The trees are so dense that you can’t see the sun, but the temperature is cool.</h2>
 
-<h2 id="okutama-kodanba-kumano-shrine">Okutama Kodanba Kumano Shrine</h2>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Okutama3.jpg', 'Okutama 3')">
+    <img src="/assets/images/thumbnails/Okutama3_thumbnail.jpg" alt="Okutama3" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<p><br /></p>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Okutama4.jpg', 'Okutama 4')">
+    <img src="/assets/images/thumbnails/Okutama4_thumbnail.jpg" alt="Okutama4" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="a-beautiful-house-among-mountains">A beautiful house among mountains</h2>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Okutama7.jpg', 'Okutama 7')">
+    <img src="/assets/images/thumbnails/Okutama7_thumbnail.jpg" alt="Okutama7" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="one-classical-shrine">One Classical Shrine</h2>
 
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/Okutama6.jpg', 'Okutama 6')">
     <img src="/assets/images/thumbnails/Okutama6_thumbnail.jpg" alt="Okutama6" style="width: 100%; max-width: 100%; height: auto;" />
@@ -168,58 +168,22 @@ function closeImagePopup() {
     var popup = document.getElementById('image-popup');
     popup.style.display = 'none';
 }
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Okutama - Urban View]]></summary></entry><entry><title type="html">Okutama - Nature View</title><link href="https://xingyujourney.github.io/blog/2024/07/06/Okutama1.html" rel="alternate" type="text/html" title="Okutama - Nature View" /><published>2024-07-06T00:00:00+08:00</published><updated>2024-07-06T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/07/06/Okutama1</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/07/06/Okutama1.html"><![CDATA[<h1 id="okutama---nature-view">Okutama - Nature View</h1>
-
-<h2 id="the-mountains-near-tokyo-look-beautiful-from-the-outside-but-its-not-comfortable-to-walk-in-the-trees-are-so-dense-that-you-cant-see-the-sun-but-the-temperature-is-cool">The mountains near Tokyo look beautiful from the outside, but it’s not comfortable to walk in. The trees are so dense that you can’t see the sun, but the temperature is cool.</h2>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Okutama3.jpg', 'Okutama 3')">
-    <img src="/assets/images/thumbnails/Okutama3_thumbnail.jpg" alt="Okutama3" style="width: 100%; max-width: 100%; height: auto;" />
-</a></p>
-
-<p><br /></p>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Okutama4.jpg', 'Okutama 4')">
-    <img src="/assets/images/thumbnails/Okutama4_thumbnail.jpg" alt="Okutama4" style="width: 100%; max-width: 100%; height: auto;" />
-</a></p>
-
-<h2 id="a-beautiful-house-among-mountains">A beautiful house among mountains</h2>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Okutama7.jpg', 'Okutama 7')">
-    <img src="/assets/images/thumbnails/Okutama7_thumbnail.jpg" alt="Okutama7" style="width: 100%; max-width: 100%; height: auto;" />
-</a></p>
-
-<script>
-function showImage(src, alt) {
-    var popup = document.getElementById('image-popup');
-    var popupImage = document.getElementById('popup-image');
-
-    popupImage.src = src;
-    popupImage.alt = alt;
-    popup.style.display = 'flex';
-}
-
-function closeImagePopup() {
-    var popup = document.getElementById('image-popup');
-    popup.style.display = 'none';
-}
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[Okutama - Nature View]]></summary></entry><entry><title type="html">Peak District Part 7</title><link href="https://xingyujourney.github.io/blog/2024/06/06/PeakDistrictTime7.html" rel="alternate" type="text/html" title="Peak District Part 7" /><published>2024-06-06T00:00:00+08:00</published><updated>2024-06-06T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/06/06/PeakDistrictTime7</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/06/06/PeakDistrictTime7.html"><![CDATA[<h1 id="kinder-scout">Kinder Scout</h1>
-<h2 id="i-made-an-appointment-with-my-friend-to-go-hiking-together-it-rained-heavily-before-we-started-climbing-but-fortunately-the-weather-was-good-when-we-actually-started-climbing">I made an appointment with my friend to go hiking together. It rained heavily before we started climbing, but fortunately the weather was good when we actually started climbing.</h2>
-
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout2.jpg', 'Kinder Scout 2')">
-    <img src="/assets/images/thumbnails/KinderScout2_thumbnail.jpg" alt="KinderScout2" style="width: 100%; max-width: 100%; height: auto;" />
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="Japan" /><summary type="html"><![CDATA[The mountains near Tokyo look beautiful from the outside, but it’s not comfortable to walk in. The trees are so dense that you can’t see the sun, but the temperature is cool.]]></summary></entry><entry><title type="html">Kinder Scout</title><link href="https://xingyujourney.github.io/blog/2024/06/06/PeakDistrictTime7.html" rel="alternate" type="text/html" title="Kinder Scout" /><published>2024-06-06T00:00:00+08:00</published><updated>2024-06-06T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/06/06/PeakDistrictTime7</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/06/06/PeakDistrictTime7.html"><![CDATA[<h2 id="i-made-an-appointment-with-my-friend-to-go-hiking-together-it-rained-heavily-before-we-started-climbing-but-fortunately-the-weather-was-good-when-we-actually-started-climbing">I made an appointment with my friend to go hiking together. It rained heavily before we started climbing, but fortunately the weather was good when we actually started climbing.</h2>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout1.jpg', 'Kinder Scout 1')">
+    <img src="/assets/images/thumbnails/KinderScout1_thumbnail.jpg" alt="KinderScout1" style="width: 50%; max-width: 100%; height: auto;" />
 </a>
 <br />
-<a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout1.jpg', 'Kinder Scout 1')">
-    <img src="/assets/images/thumbnails/KinderScout1_thumbnail.jpg" alt="KinderScout1" style="width: 50%; max-width: 100%; height: auto;" />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout2.jpg', 'Kinder Scout 2')">
+    <img src="/assets/images/thumbnails/KinderScout2_thumbnail.jpg" alt="KinderScout2" style="width: 100%; max-width: 100%; height: auto;" />
 </a></p>
 
 <h2 id="because-we-didnt-look-at-the-map-when-climbing-we-realised-we-climbed-the-wrong-mountain-after-we-reached-the-top">Because we didn’t look at the map when climbing, we realised we climbed the wrong mountain after we reached the top.</h2>
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout4.jpg', 'Kinder Scout 4')">
-    <img src="/assets/images/thumbnails/KinderScout4_thumbnail.jpg" alt="KinderScout4" style="width: 100%; max-width: 100%; height: auto;" />
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout3.jpg', 'Kinder Scout 3')">
+    <img src="/assets/images/thumbnails/KinderScout3_thumbnail.jpg" alt="KinderScout3" style="width: 50%; max-width: 100%; height: auto;" />
 </a>
 <br />
-<a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout3.jpg', 'Kinder Scout 3')">
-    <img src="/assets/images/thumbnails/KinderScout3_thumbnail.jpg" alt="KinderScout3" style="width: 50%; max-width: 100%; height: auto;" />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/KinderScout4.jpg', 'Kinder Scout 4')">
+    <img src="/assets/images/thumbnails/KinderScout4_thumbnail.jpg" alt="KinderScout4" style="width: 100%; max-width: 100%; height: auto;" />
 </a></p>
 
 <script>
@@ -236,7 +200,7 @@ function closeImagePopup() {
     var popup = document.getElementById('image-popup');
     popup.style.display = 'none';
 }
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[Kinder Scout I made an appointment with my friend to go hiking together. It rained heavily before we started climbing, but fortunately the weather was good when we actually started climbing.]]></summary></entry><entry><title type="html">Peak District Part 6</title><link href="https://xingyujourney.github.io/blog/2024/06/02/PeakDistrictTime6.html" rel="alternate" type="text/html" title="Peak District Part 6" /><published>2024-06-02T00:00:00+08:00</published><updated>2024-06-02T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/06/02/PeakDistrictTime6</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/06/02/PeakDistrictTime6.html"><![CDATA[<h1 id="baslow">Baslow</h1>
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[I made an appointment with my friend to go hiking together. It rained heavily before we started climbing, but fortunately the weather was good when we actually started climbing.]]></summary></entry><entry><title type="html">Baslow: Second Time</title><link href="https://xingyujourney.github.io/blog/2024/06/02/PeakDistrictTime6.html" rel="alternate" type="text/html" title="Baslow: Second Time" /><published>2024-06-02T00:00:00+08:00</published><updated>2024-06-02T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/06/02/PeakDistrictTime6</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/06/02/PeakDistrictTime6.html"><![CDATA[<h1 id="baslow">Baslow</h1>
 <h2 id="i-came-to-baslow-again-but-this-time-i-lay-on-the-rocks-bathed-in-the-sun-all-day-and-only-took-a-few-pictures">I came to Baslow again, but this time I lay on the rocks, bathed in the sun all day and only took a few pictures.</h2>
 
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/BaslowAgain1.jpg', 'Baslow Again 1')">
@@ -265,18 +229,7 @@ function closeImagePopup() {
     var popup = document.getElementById('image-popup');
     popup.style.display = 'none';
 }
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[Baslow I came to Baslow again, but this time I lay on the rocks, bathed in the sun all day and only took a few pictures.]]></summary></entry><entry><title type="html">Peak District Part 5</title><link href="https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime5.html" rel="alternate" type="text/html" title="Peak District Part 5" /><published>2024-05-24T00:00:00+08:00</published><updated>2024-05-24T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime5</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime5.html"><![CDATA[<h1 id="chatsworth-house">Chatsworth House</h1>
-<h2 id="a-grand-stately-home">A grand stately home</h2>
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse1.jpg', 'Chatsworth House 1')">
-    <img src="/assets/images/thumbnails/ChatsworthHouse1_thumbnail.jpg" alt="ChatsworthHouse1" style="width: 100%; max-width: 100%; height: auto;" />
-</a>
-<br />
-<a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse2.jpg', 'Chatsworth House 2')">
-    <img src="/assets/images/thumbnails/ChatsworthHouse2_thumbnail.jpg" alt="ChatsworthHouse2" style="width: 50%; max-width: 100%; height: auto;" />
-</a></p>
-
-<h1 id="edensor">Edensor</h1>
-<h2 id="front">Front</h2>
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[Baslow I came to Baslow again, but this time I lay on the rocks, bathed in the sun all day and only took a few pictures.]]></summary></entry><entry><title type="html">Edensor: Second Time</title><link href="https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime51.html" rel="alternate" type="text/html" title="Edensor: Second Time" /><published>2024-05-24T00:00:00+08:00</published><updated>2024-05-24T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime51</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime51.html"><![CDATA[<h2 id="front-of-the-villiage">Front of the villiage</h2>
 <p><a href="javascript:void(0);" onclick="showImage('/assets/images/Edensor1.jpg', 'Edensor 1')">
     <img src="/assets/images/thumbnails/Edensor1_thumbnail.jpg" alt="Edensor1" style="width: 100%; max-width: 100%; height: auto;" />
 </a></p>
@@ -305,20 +258,13 @@ function closeImagePopup() {
     var popup = document.getElementById('image-popup');
     popup.style.display = 'none';
 }
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[Chatsworth House A grand stately home]]></summary></entry><entry><title type="html">UoN Jubilee Campus</title><link href="https://xingyujourney.github.io/blog/2024/04/22/UoNJubileeCampus.html" rel="alternate" type="text/html" title="UoN Jubilee Campus" /><published>2024-04-22T00:00:00+08:00</published><updated>2024-04-22T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/04/22/UoNJubileeCampus</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/04/22/UoNJubileeCampus.html"><![CDATA[<h1 id="university-of-nottingham">University of Nottingham</h1>
-
-<h2 id="jubilee-campus">Jubilee Campus</h2>
-<h3 id="the-place-i-study-in-a-nice-place">The place I study in, a nice place.</h3>
-<p><a href="javascript:void(0);" onclick="showImage('/assets/images/UoNJubileeCampus1.jpg', 'UoN Jubilee Campus 1')">
-    <img src="/assets/images/thumbnails/UoNJubileeCampus1_thumbnail.jpg" alt="UoNJubileeCampus1" style="width: 50%; max-width: 100%; height: auto;" />
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[Front of the villiage]]></summary></entry><entry><title type="html">Chatsworth House</title><link href="https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime5.html" rel="alternate" type="text/html" title="Chatsworth House" /><published>2024-05-24T00:00:00+08:00</published><updated>2024-05-24T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime5</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/05/24/PeakDistrictTime5.html"><![CDATA[<h2 id="chatsworth-house-is-one-of-englands-most-iconic-stately-homes-set-within-the-breathtaking-derbyshire-countryside-of-the-peak-district-home-to-the-cavendish-family-dukes-of-devonshire-for-over-500-years">Chatsworth House is one of England’s most iconic stately homes, set within the breathtaking Derbyshire countryside of the Peak District. Home to the Cavendish family, Dukes of Devonshire, for over 500 years.</h2>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse1.jpg', 'Chatsworth House 1')">
+    <img src="/assets/images/thumbnails/ChatsworthHouse1_thumbnail.jpg" alt="ChatsworthHouse1" style="width: 100%; max-width: 100%; height: auto;" />
 </a>
 <br />
-<a href="javascript:void(0);" onclick="showImage('/assets/images/UoNJubileeCampus2.jpg', 'UoN Jubilee Campus 2')">
-    <img src="/assets/images/thumbnails/UoNJubileeCampus2_thumbnail.jpg" alt="UoNJubileeCampus2" style="width: 50%; max-width: 100%; height: auto;" />
-</a>
-<br />
-<a href="javascript:void(0);" onclick="showImage('/assets/images/UoNJubileeCampus3.jpg', 'UoN Jubilee Campus 3')">
-    <img src="/assets/images/thumbnails/UoNJubileeCampus3_thumbnail.jpg" alt="UoNJubileeCampus3" style="width: 100%; max-width: 100%; height: auto;" />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse2.jpg', 'Chatsworth House 2')">
+    <img src="/assets/images/thumbnails/ChatsworthHouse2_thumbnail.jpg" alt="ChatsworthHouse2" style="width: 50%; max-width: 100%; height: auto;" />
 </a></p>
 
 <script>
@@ -335,4 +281,73 @@ function closeImagePopup() {
     var popup = document.getElementById('image-popup');
     popup.style.display = 'none';
 }
-</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="China" /><summary type="html"><![CDATA[University of Nottingham]]></summary></entry></feed>
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[Chatsworth House is one of England’s most iconic stately homes, set within the breathtaking Derbyshire countryside of the Peak District. Home to the Cavendish family, Dukes of Devonshire, for over 500 years.]]></summary></entry><entry><title type="html">Shanghai</title><link href="https://xingyujourney.github.io/blog/2024/04/22/Shanghai.html" rel="alternate" type="text/html" title="Shanghai" /><published>2024-04-22T00:00:00+08:00</published><updated>2024-04-22T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/04/22/Shanghai</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/04/22/Shanghai.html"><![CDATA[<h2 id="a-big-city-in-china">A big city in China</h2>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Shanghai1.jpg', 'Shanghai 1')">
+    <img src="/assets/images/thumbnails/Shanghai1_thumbnail.jpg" alt="Shanghai1" style="width: 50%; max-width: 100%; height: auto;" />
+</a>
+<br />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/Shanghai2.jpg', 'Shanghai 2')">
+    <img src="/assets/images/thumbnails/Shanghai2_thumbnail.jpg" alt="Shanghai2" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="China" /><summary type="html"><![CDATA[A big city in China]]></summary></entry><entry><title type="html">Around Fort William</title><link href="https://xingyujourney.github.io/blog/2024/03/27/HighlandTime2.html" rel="alternate" type="text/html" title="Around Fort William" /><published>2024-03-27T00:00:00+08:00</published><updated>2024-03-27T00:00:00+08:00</updated><id>https://xingyujourney.github.io/blog/2024/03/27/HighlandTime2</id><content type="html" xml:base="https://xingyujourney.github.io/blog/2024/03/27/HighlandTime2.html"><![CDATA[<h2 id="loch-linnhe">Loch Linnhe</h2>
+<h3 id="a-loch-located-on-the-west-coast-of-scotland-loch-linnhe-is-part-of-the-grand-canyon-and-the-only-lake-in-the-grand-canyon-that-is-actually-part-of-the-ocean">A loch located on the west coast of Scotland. Loch Linnhe is part of the Grand Canyon and the only lake in the Grand Canyon that is actually part of the ocean.</h3>
+
+<h3 id="it-is-rumored-that-an-unknown-marine-creature-called-linnhe-lives-here-why-does-it-feel-similar-to-the-legend-of-the-loch-ness-monster">It is rumored that an unknown marine creature called “Linnhe” lives here. (Why does it feel similar to the legend of the Loch Ness Monster)</h3>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/LochLinnhe.jpg', 'Loch Linnhe')">
+    <img src="/assets/images/thumbnails/LochLinnhe_thumbnail.jpg" alt="LochLinnhe" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="fort-william">Fort William</h2>
+
+<h3 id="located-in-the-west-highlands-the-town-is-described-as-the-outdoor-capital-of-the-uk-i-can-see-the-nearby-mountains-from-the-town">Located in the West Highlands, the town is described as the Outdoor Capital of the UK. I can see the nearby mountains from the town.</h3>
+
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/NevisRangeFromFT.jpg', 'Nevis Range from Fort William')">
+    <img src="/assets/images/thumbnails/NevisRangeFromFT_thumbnail.jpg" alt="NevisRangeFromFT" style="width: 100%; max-width: 100%; height: auto;" />
+</a>
+<br />
+<a href="javascript:void(0);" onclick="showImage('/assets/images/FortWilliam.jpg', 'Fort William')">
+    <img src="/assets/images/thumbnails/FortWilliam_thumbnail.jpg" alt="FortWilliam" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="corran">Corran</h2>
+<h3 id="a-former-fishing-village">A former fishing village</h3>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/Corran.jpg', 'Corran')">
+    <img src="/assets/images/thumbnails/Corran_thumbnail.jpg" alt="Corran" style="width: 100%; max-width: 100%; height: auto;" />
+</a></p>
+
+<h2 id="lower-falls">Lower Falls</h2>
+<h3 id="a-waterfall-in-glen-nevis">A waterfall in Glen Nevis</h3>
+<p><a href="javascript:void(0);" onclick="showImage('/assets/images/LowerFalls.jpg', 'Lower Falls')">
+    <img src="/assets/images/thumbnails/LowerFalls_thumbnail.jpg" alt="LowerFalls" style="width: 50%; max-width: 100%; height: auto;" />
+</a></p>
+
+<script>
+function showImage(src, alt) {
+    var popup = document.getElementById('image-popup');
+    var popupImage = document.getElementById('popup-image');
+
+    popupImage.src = src;
+    popupImage.alt = alt;
+    popup.style.display = 'flex';
+}
+
+function closeImagePopup() {
+    var popup = document.getElementById('image-popup');
+    popup.style.display = 'none';
+}
+</script>]]></content><author><name>XingyuZHU</name><email>funny_wade@outlook.com</email></author><category term="blog" /><category term="UK" /><summary type="html"><![CDATA[Loch Linnhe A loch located on the west coast of Scotland. Loch Linnhe is part of the Grand Canyon and the only lake in the Grand Canyon that is actually part of the ocean.]]></summary></entry></feed>
