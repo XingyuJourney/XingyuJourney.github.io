@@ -1,12 +1,10 @@
 ---
 layout: base
-title: "Scottish Highlands Part 4"
+title: "Glen Nevis"
 date: 2024-03-27
 categories: blog
 tags: [UK]
 ---
-
-# Glen Nevis
 
 ## The glen is bordered by the Marmore Mountains to the south and the highest mountains in the British Isles to the north: Ben Nevis, Càrn Mor Dearg, Aonach Mòr, and Aonach Beag. Walking through it, you can admire the unique landscape left on the mountain by glacial erosion.
 

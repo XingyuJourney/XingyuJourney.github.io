@@ -1,14 +1,13 @@
 ---
 layout: base
-title: "Peak District Part 1"
+title: "Edensor"
 date: 2024-02-12
 categories: blog
 tags: [UK]
 ---
 
-# Edensor
+## St Peter's Church in Edensor
 
-## St Peter's Church
 ### Classic and beautiful building
 <a href="javascript:void(0);" onclick="showImage('/assets/images/EdensorChurch.jpg', 'St Peter\'s Church')">
     <img src="/assets/images/thumbnails/EdensorChurch_thumbnail.jpg" alt="EdensorChurch" style="width: 50%; max-width: 100%; height: auto;">

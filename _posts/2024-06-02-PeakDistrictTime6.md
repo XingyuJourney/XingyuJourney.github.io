@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Peak District Part 6"
+title: "Baslow: Second Time"
 date: 2024-06-02
 categories: blog
 tags: [UK]

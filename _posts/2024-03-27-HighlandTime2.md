@@ -1,12 +1,10 @@
 ---
 layout: base
-title: "Scottish Highlands Part 2"
+title: "Around Fort William"
 date: 2024-03-27
 categories: blog
 tags: [UK]
 ---
-# Scottish Highlands
-
 ## Loch Linnhe
 ### A loch located on the west coast of Scotland. Loch Linnhe is part of the Grand Canyon and the only lake in the Grand Canyon that is actually part of the ocean.
 

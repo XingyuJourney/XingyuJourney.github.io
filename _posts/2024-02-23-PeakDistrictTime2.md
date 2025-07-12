@@ -1,14 +1,12 @@
 ---
 layout: base
-title: "Peak District Part 2"
+title: "Win Hill in Hope Valley"
 date: 2024-02-23
 categories: blog
 tags: [UK]
 ---
-# Hope Valley
 
-## Win Hill
-### The name is pretty interesting.
+## Win Hill (The name is pretty interesting)
 ### A tree I came across at the beginning of climb.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/TreeWinHill.jpg', 'Tree at Win Hill')">
     <img src="/assets/images/thumbnails/TreeWinHill_thumbnail.jpg" alt="TreeWinHill" style="width: 50%; max-width: 100%; height: auto;">
@@ -28,10 +26,7 @@ tags: [UK]
     <img src="/assets/images/thumbnails/WillHillTop1_thumbnail.jpg" alt="WillHillTop1" style="width: 100%; max-width: 100%; height: auto;">
 </a>
 <br>
-<a href="javascript:void(0);" onclick="showImage('/assets/images/WillHillTop3.jpg', 'Win Hill Top 3')">
-    <img src="/assets/images/thumbnails/WillHillTop3_thumbnail.jpg" alt="WillHillTop3" style="width: 100%; max-width: 100%; height: auto;">
-</a>
-<br>
+
 <a href="javascript:void(0);" onclick="showImage('/assets/images/WillHillTop2.jpg', 'Win Hill Top 2')">
     <img src="/assets/images/thumbnails/WillHillTop2_thumbnail.jpg" alt="WillHillTop2" style="width: 50%; max-width: 100%; height: auto;">
 </a>

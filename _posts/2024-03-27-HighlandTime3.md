@@ -1,12 +1,10 @@
 ---
 layout: base
-title: "Scottish Highlands Part 3 (Ben Nevis)"
+title: "Ben Nevis"
 date: 2024-03-27
 categories: blog
 tags: [UK]
 ---
-
-# Ben Nevis
 
 ## Conclusion: In harsh weather, it is unwise to climb the snowy mountain alone. If your equipment is inadequate and time is short, it is best to avoid the journey altogether.
 

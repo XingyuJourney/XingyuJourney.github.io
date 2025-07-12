@@ -1,13 +1,12 @@
 ---
 layout: base
-title: "Peak District Part 5"
+title: "Chatsworth House"
 date: 2024-05-24
 categories: blog
 tags: [UK]
 ---
 
-# Chatsworth House
-## A grand stately home
+## Chatsworth House is one of England’s most iconic stately homes, set within the breathtaking Derbyshire countryside of the Peak District. Home to the Cavendish family, Dukes of Devonshire, for over 500 years.
 <a href="javascript:void(0);" onclick="showImage('/assets/images/ChatsworthHouse1.jpg', 'Chatsworth House 1')">
     <img src="/assets/images/thumbnails/ChatsworthHouse1_thumbnail.jpg" alt="ChatsworthHouse1" style="width: 100%; max-width: 100%; height: auto;">
 </a>
@@ -16,21 +15,6 @@ tags: [UK]
     <img src="/assets/images/thumbnails/ChatsworthHouse2_thumbnail.jpg" alt="ChatsworthHouse2" style="width: 50%; max-width: 100%; height: auto;">
 </a>
 
-# Edensor
-## Front
-<a href="javascript:void(0);" onclick="showImage('/assets/images/Edensor1.jpg', 'Edensor 1')">
-    <img src="/assets/images/thumbnails/Edensor1_thumbnail.jpg" alt="Edensor1" style="width: 100%; max-width: 100%; height: auto;">
-</a>
-
-## On the road to Edensor from Bakewell, I take two pictures.
-<a href="javascript:void(0);" onclick="showImage('/assets/images/Bakewell1.jpg', 'Bakewell 1')">
-    <img src="/assets/images/thumbnails/Bakewell1_thumbnail.jpg" alt="Bakewell1" style="width: 50%; max-width: 100%; height: auto;">
-</a>
-
-## This tree again.
-<a href="javascript:void(0);" onclick="showImage('/assets/images/EdensorTree2.jpg', 'Edensor Tree 2')">
-    <img src="/assets/images/thumbnails/EdensorTree2_thumbnail.jpg" alt="EdensorTree2" style="width: 50%; max-width: 100%; height: auto;">
-</a>
 
 <script>
 function showImage(src, alt) {
