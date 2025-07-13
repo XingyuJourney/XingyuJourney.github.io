@@ -15,8 +15,9 @@ tags: [Japan]
 <br>
 
 <a href="javascript:void(0);" onclick="showImage('/assets/images/城ヶ崎海岸2.jpg', '城ヶ崎海岸')">
-    <img src="/assets/images/thumbnails/城ヶ崎海岸2_thumbnail.jpg" alt="城ヶ崎海岸2" style="width: 50%; max-width: 100%; height: auto;">
+    <img src="/assets/images/thumbnails/城ヶ崎海岸2_thumbnail.jpg" alt="城ヶ崎海岸2" style="width: 100%; max-width: 100%; height: auto;">
 </a>
+
 
 ## Mount Fuji From Far
 ### Symmetrical conical volcano

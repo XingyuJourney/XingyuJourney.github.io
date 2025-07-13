@@ -1,0 +1,8 @@
+使用imagemagick来批量生成缩略图
+
+指令类似于for img in *.jpg; do convert "$img" -thumbnail 200x200 -set filename:base "%[basename]" "output_folder/%[filename:base]_thumbnail.jpg"; done
+
+
+启动jekyll
+bundle exec jekyll serve
+bundle exec jekyll build 

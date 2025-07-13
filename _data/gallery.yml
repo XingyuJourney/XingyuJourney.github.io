@@ -7,22 +7,12 @@ images:
     alt: Drumnadrochit
   - url: /assets/images/BigBen.jpg
     alt: Big Ben
-  - url: /assets/images/BennerleyViaduct1.jpg
-    alt: Bennerley Viaduct
-  - url: /assets/images/BennerleyViaduct2.jpg
-    alt: Bennerley Viaduct
-  - url: /assets/images/SunSetRiverTrent1.jpg
-    alt: River Trent
-  - url: /assets/images/EdensorChurch.jpg
-    alt: Edensor Church
   - url: /assets/images/ViewNearEdensor1.jpg
     alt: View near Edensor
   - url: /assets/images/EdensorTree.jpg
     alt: A tree in Edensor
   - url: /assets/images/DuringClimbWinHill1.jpg
     alt: During Climb Win Hill
-  - url: /assets/images/WillHillTop1.jpg
-    alt: Win Hill Top
   - url: /assets/images/GardomEdge2.jpg
     alt: Gardom Edge 
   - url: /assets/images/EagleStone.jpg
@@ -45,10 +35,6 @@ images:
     alt: UoN Jubilee Campus
   - url: /assets/images/UoNJubileeCampus3.jpg
     alt: UoN Jubilee Campus
-  - url: /assets/images/ChatsworthHouse2.jpg
-    alt: Chatsworth House
-  - url: /assets/images/Edensor1.jpg
-    alt: Edensor
   - url: /assets/images/BaslowAgain1.jpg
     alt: Baslow
   - url: /assets/images/BaslowAgain2.jpg
@@ -57,3 +43,9 @@ images:
     alt: Baslow
   - url: /assets/images/KinderScout2.jpg
     alt: Kinder Scout
+  - url: /assets/images/城ヶ崎海岸2.jpg
+    alt: 城ヶ崎海岸
+  - url: /assets/images/InsideAbbey.jpg
+    alt: Inside Newstead Abbey
+  - url: /assets/images/OppositeOfAbbey2.jpg
+    alt: Opposite Of Newstead Abbey
