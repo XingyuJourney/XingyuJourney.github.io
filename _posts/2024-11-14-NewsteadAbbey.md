@@ -11,8 +11,8 @@ tags: [UK]
 
 ### It takes about 20 minutes to walk from the main gate to the abbey itself, and the scenery along the way is quite lovely. Here's what the abbey looks like when you finally arrive.
 
-<a href="javascript:void(0);" onclick="showImage('/assets/images/Abbey 2.jpg', 'Abbey')">
-    <img src="/assets/images/thumbnails/Abbey 2_thumbnail.jpg" alt="Abbey" style="width: 100%; max-width: 100%; height: auto;">
+<a href="javascript:void(0);" onclick="showImage('/assets/images/Abbey 2.JPG', 'Abbey')">
+    <img src="/assets/images/thumbnails/Abbey 2_thumbnail.JPG" alt="Abbey" style="width: 100%; max-width: 100%; height: auto;">
 </a>
 
 ### On the left is what remains of the 13th-century priory church – now a dramatic Gothic ruin.
