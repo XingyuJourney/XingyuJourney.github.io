@@ -118,4 +118,28 @@ var store = [{
         "tags": ["Japan"],
         "url": "/blog/2024/07/16/Tokyo2.html",
         "teaser": null
+      },{
+        "title": "Newstead Abbey",
+        "excerpt":"Newstead Abbey: Byron’s Ancestral Home Originally founded as a 12th-century Augustinian priory, it later became a grand country estate filled with Gothic charm and literary legacy. It takes about 20 minutes to walk from the main gate to the abbey itself, and the scenery along the way is quite lovely....","categories": ["blog"],
+        "tags": ["UK"],
+        "url": "/blog/2024/11/14/NewsteadAbbey.html",
+        "teaser": null
+      },{
+        "title": "A Surprise Across the Lake (Newstead Abbey)",
+        "excerpt":"A Surprise in Newstead Abbey   Across the lake, I spotted this picturesque cluster of buildings. They seem to belong to the Newstead Abbey, though I’m not entirely sure of their original function. Either way, they made a perfect reflection on the still water.                                      ","categories": ["blog"],
+        "tags": ["UK"],
+        "url": "/blog/2024/11/14/NewsteadAbbey2.html",
+        "teaser": null
+      },{
+        "title": "Fort Augustus (The Village)",
+        "excerpt":"Fort Augustus This blog focuses on Fort Augustus as a village; the actual fort will be covered in the next post. Fort Augustus lies in the heart of the Great Glen, right at the southern end of Loch Ness. I took the photo below at the village bus stop. That...","categories": ["blog"],
+        "tags": ["UK"],
+        "url": "/blog/2024/12/24/FortAugustus1.html",
+        "teaser": null
+      },{
+        "title": "Fort Augustus (The Actual Fort)",
+        "excerpt":"Fort Augustus (The Actual Fort) On the side of the village closest to Loch Ness, there’s a distinctive hotel owned by The Highland Club — and it also happened to be where I stayed. The hotel is housed in a former 19th-century Benedictine Monastery, and staying there was a wonderful...","categories": ["blog"],
+        "tags": ["UK"],
+        "url": "/blog/2024/12/24/FortAugustus2.html",
+        "teaser": null
       }]
