@@ -23,8 +23,9 @@ tags: [UK]
 
 <br>
 
-<a href="javascript:void(0);" onclick="showImage('/assets/images/lounge.JPG', 'Fort Augustus (Monastery)')">
-    <img src="/assets/images/thumbnails/lounge_thumbnail.JPG" alt="Fort Augustus (Monastery)" style="width: 50%; max-width: 100%; height: auto;">
+
+<a href="javascript:void(0);" onclick="showImage('/assets/images/lounge.jpg', 'Fort Augustus (Monastery)')">
+    <img src="/assets/images/thumbnails/lounge_thumbnail.JPG" alt="Fort Augustus (Monastery)" style="width: 25%; max-width: 50%; height: auto;">
 </a>
 
 ### The monastery gardens are also lovely, stretching right down to the shores of Loch Ness.
