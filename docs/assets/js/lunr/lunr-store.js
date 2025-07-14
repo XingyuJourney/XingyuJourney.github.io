@@ -142,4 +142,16 @@ var store = [{
         "tags": ["UK"],
         "url": "/blog/2024/12/24/FortAugustus2.html",
         "teaser": null
+      },{
+        "title": "Nevis Range",
+        "excerpt":"Nevis Range Located near Fort William, the Nevis Range is a well-known outdoor activity area where I stayed for two nights. The mountain resort offers bike rentals, and there are several scenic routes suitable for cycling (some are quite dangerous). I took the gondola up to the upper slopes —...","categories": ["blog"],
+        "tags": ["UK"],
+        "url": "/blog/2025/03/14/FTW1.html",
+        "teaser": null
+      },{
+        "title": "North Face Trail (Ben Nevis)",
+        "excerpt":"North Face Trail During my stay at Nevis Range Mountain Resort, I didn’t feel like renting a bike, and since it wasn’t ski season, I ended up simply wandering around the area. While exploring, I came across a small path with a signpost pointing to Fort William — and so,...","categories": ["blog"],
+        "tags": ["UK"],
+        "url": "/blog/2025/03/14/FTW2.html",
+        "teaser": null
       }]
